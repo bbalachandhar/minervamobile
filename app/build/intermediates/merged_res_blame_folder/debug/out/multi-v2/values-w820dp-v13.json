@@ -4,7 +4,7 @@
             "outputFile": "com.qdocs.ssre241123.app-mergeDebugResources-33:/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "/Volumes/WORK/FlutterApps/minervaandroid/app/src/main/res/values-w820dp/dimens.xml",
+                    "source": "/Volumes/WORK/FlutterApps/minervamobile/app/src/main/res/values-w820dp/dimens.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",

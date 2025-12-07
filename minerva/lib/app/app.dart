@@ -10,6 +10,12 @@ import 'package:minerva_flutter/features/auth/presentation/pages/login_page.dart
 import 'package:minerva_flutter/features/dashboard/data/repositories/dashboard_repository.dart';
 import 'package:minerva_flutter/features/dashboard/presentation/bloc/dashboard_bloc.dart';
 import 'package:minerva_flutter/features/dashboard/presentation/pages/dashboard_page.dart';
+import 'package:minerva_flutter/features/fees/data/repositories/fees_repository.dart';
+import 'package:minerva_flutter/features/fees/presentation/bloc/fees_bloc.dart';
+import 'package:minerva_flutter/features/fees/presentation/pages/fees_screen.dart';
+import 'package:minerva_flutter/features/fees/presentation/pages/processing_fees_screen.dart';
+import 'package:minerva_flutter/features/fees/presentation/bloc/offline_payment_bloc.dart';
+import 'package:minerva_flutter/features/fees/presentation/bloc/processing_fees_bloc.dart';
 import 'package:minerva_flutter/features/profile/data/repositories/profile_repository.dart';
 import 'package:minerva_flutter/features/profile/presentation/bloc/profile_bloc.dart';
 import 'package:minerva_flutter/features/profile/presentation/pages/profile_page.dart';
@@ -18,6 +24,8 @@ import 'package:minerva_flutter/features/url/data/repositories/settings_reposito
 import 'package:minerva_flutter/features/url/presentation/bloc/url_bloc.dart';
 import 'package:minerva_flutter/features/url/presentation/pages/url_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../features/fees/presentation/pages/offline_payment_screen.dart';
 
 class App extends StatelessWidget {
   final SharedPreferences sharedPreferences;
@@ -63,6 +71,24 @@ class App extends StatelessWidget {
           return const AboutSchoolPage();
         },
       ),
+      GoRoute(
+        path: '/fees', // New route for FeesScreen
+        builder: (BuildContext context, GoRouterState state) {
+          return FeesScreen();
+        },
+      ),
+      GoRoute(
+        path: '/fees/processing',
+        builder: (BuildContext context, GoRouterState state) {
+          return ProcessingFeesScreen();
+        },
+      ),
+      GoRoute(
+        path: '/fees/offline',
+        builder: (BuildContext context, GoRouterState state) {
+          return OfflinePaymentScreen();
+        },
+      ),
     ],
   );
 
@@ -84,6 +110,9 @@ class App extends StatelessWidget {
         ),
         RepositoryProvider<AboutSchoolRepository>(
           create: (context) => AboutSchoolRepository(sharedPreferences: sharedPreferences),
+        ),
+        RepositoryProvider<FeesRepository>(
+          create: (context) => FeesRepository(sharedPreferences: sharedPreferences),
         ),
       ],
       child: MultiBlocProvider(
@@ -116,6 +145,24 @@ class App extends StatelessWidget {
             create: (context) => AboutSchoolBloc(
               aboutSchoolRepository:
                   RepositoryProvider.of<AboutSchoolRepository>(context),
+            ),
+          ),
+          BlocProvider(
+            create: (context) => FeesBloc(
+              feesRepository:
+                  RepositoryProvider.of<FeesRepository>(context),
+            ),
+          ),
+          BlocProvider(
+            create: (context) => ProcessingFeesBloc(
+              feesRepository:
+                  RepositoryProvider.of<FeesRepository>(context),
+            ),
+          ),
+          BlocProvider(
+            create: (context) => OfflinePaymentBloc(
+              feesRepository:
+                  RepositoryProvider.of<FeesRepository>(context),
             ),
           ),
         ],

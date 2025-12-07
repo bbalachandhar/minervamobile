@@ -172,6 +172,17 @@ class _DashboardPageState extends State<DashboardPage> {
     );
   }
 
+  void _onModuleTapped(Module module) {
+    switch (module.name.toLowerCase()) {
+      case 'fees':
+        context.push('/fees');
+        break;
+      default:
+        // Do nothing for now
+        break;
+    }
+  }
+
   Widget _buildModuleSection(String title, List<Module> modules) {
     if (modules.isEmpty) {
       return const SizedBox.shrink(); // Hide section if no modules
@@ -204,16 +215,19 @@ class _DashboardPageState extends State<DashboardPage> {
               itemCount: modules.length,
               itemBuilder: (context, index) {
                 final module = modules[index];
-                return Column( // Individual tile content
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Image.asset(module.icon, width: 30, height: 30), // Fixed icon size
-                    const SizedBox(height: 8),
-                    Text(
-                      module.name,
-                      textAlign: TextAlign.center, // Center align text
-                    ),
-                  ],
+                return GestureDetector(
+                  onTap: () => _onModuleTapped(module),
+                  child: Column( // Individual tile content
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Image.asset(module.icon, width: 30, height: 30), // Fixed icon size
+                      const SizedBox(height: 8),
+                      Text(
+                        module.name,
+                        textAlign: TextAlign.center, // Center align text
+                      ),
+                    ],
+                  ),
                 );
               },
             ),

@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:291:9-299:20
+INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:291:9-299:20
 	android:grantUriPermissions
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:295:13-47
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:295:13-47
 	android:authorities
-		INJECTED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:293:13-60
+		INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:293:13-60
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:294:13-37
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:294:13-37
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:292:13-62
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:292:13-62
 manifest
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:2:1-302:12
-INJECTED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:2:1-302:12
-INJECTED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:2:1-302:12
-INJECTED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:2:1-302:12
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:2:1-302:12
+INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:2:1-302:12
+INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:2:1-302:12
+INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:2:1-302:12
 MERGED from [com.google.android.material:material:1.0.0-beta01] /Users/balab/.gradle/caches/transforms-3/795c86524f3a4b92a009042d95bd8589/transformed/material-1.0.0-beta01/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/balab/.gradle/caches/transforms-3/d3fd7daf1d8796e5b1ef531309cda3ef/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/balab/.gradle/caches/transforms-3/c67bbbe7ccdb4f9b411f3078b1185fdb/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
@@ -76,103 +76,103 @@ MERGED from [androidx.print:print:1.0.0] /Users/balab/.gradle/caches/transforms-
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/balab/.gradle/caches/transforms-3/786dc89f9541acf4b79445b1288c5f13/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/balab/.gradle/caches/transforms-3/1aaf244137f2859c166b7b6ec2c63d68/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
 	package
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:4:5-35
-		INJECTED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:4:5-35
+		INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.WRITE_CALENDAR
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:6:5-73
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:6:5-73
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:6:22-70
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:6:22-70
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:7:5-81
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:7:22-78
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:7:22-78
 uses-permission#android.permission.CALL_PHONE
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:8:5-10:36
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:8:5-10:36
 	android:required
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:10:9-33
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:10:9-33
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:9:9-53
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:9:9-53
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:11:5-80
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:11:22-77
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:11:22-77
 uses-permission#android.permission.INTERNET
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:12:5-67
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:12:5-67
 MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:12:22-64
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:12:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:13:5-79
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:13:5-79
 MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:13:22-76
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:13:22-76
 uses-permission#android.permission.READ_CALENDAR
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:14:5-72
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:14:5-72
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:14:22-69
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:14:22-69
 uses-permission#android.permission.READ_MEDIA_IMAGES
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:15:5-76
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:15:5-76
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:15:22-73
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:15:22-73
 uses-permission#android.permission.READ_MEDIA_AUDIO
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:16:5-75
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:16:5-75
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:16:22-72
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:16:22-72
 uses-permission#android.permission.READ_MEDIA_VIDEO
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:17:5-75
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:17:5-75
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:17:22-72
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:17:22-72
 uses-permission#android.permission.READ_MEDIA_FILE
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:18:5-74
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:18:5-74
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:18:22-71
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:18:22-71
 uses-permission#android.permission.POST_NOTIFICATIONS
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:19:5-76
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:19:5-76
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:19:22-74
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:19:22-74
 uses-permission#android.permission.CAMERA
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:20:5-21:52
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:20:5-21:52
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:21:9-49
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:21:9-49
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:22:5-75
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:22:5-75
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:22:22-72
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:22:22-72
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:23:5-76
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:23:5-76
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:23:22-74
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:23:22-74
 uses-feature#android.hardware.telephony
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:24:5-26:36
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:24:5-26:36
 	android:required
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:26:9-33
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:26:9-33
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:25:9-50
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:25:9-50
 uses-feature#android.hardware.camera.autofocus
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:27:5-29:36
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:27:5-29:36
 	android:required
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:29:9-33
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:29:9-33
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:28:9-57
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:28:9-57
 uses-feature#android.hardware.camera
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:30:5-32:34
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:30:5-32:34
 	android:required
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:32:9-32
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:32:9-32
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:31:9-47
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:31:9-47
 application
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:34:5-300:19
-INJECTED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:34:5-300:19
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:34:5-300:19
+INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:34:5-300:19
 MERGED from [com.google.android.material:material:1.0.0-beta01] /Users/balab/.gradle/caches/transforms-3/795c86524f3a4b92a009042d95bd8589/transformed/material-1.0.0-beta01/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0-beta01] /Users/balab/.gradle/caches/transforms-3/795c86524f3a4b92a009042d95bd8589/transformed/material-1.0.0-beta01/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/balab/.gradle/caches/transforms-3/d3fd7daf1d8796e5b1ef531309cda3ef/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -216,525 +216,525 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/balab/.gradle/ca
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/balab/.gradle/caches/transforms-3/8f910939e308c4659af0db79d071496a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/balab/.gradle/caches/transforms-3/8f910939e308c4659af0db79d071496a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml
 	android:requestLegacyExternalStorage
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:42:9-52
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:42:9-52
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:38:9-32
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:38:9-32
 	android:roundIcon
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:43:9-47
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:43:9-47
 	android:configChanges
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:37:9-55
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:37:9-55
 	android:icon
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:40:9-42
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:40:9-42
 	android:networkSecurityConfig
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:47:9-69
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:47:9-69
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] /Users/balab/.gradle/caches/transforms-3/2e6153425324545fcd287a2f319ce459/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:44:9-35
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:44:9-35
 	android:label
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:41:9-41
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:41:9-41
 	android:hardwareAccelerated
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:39:9-43
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:39:9-43
 	tools:targetApi
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:48:9-29
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:48:9-29
 	android:allowBackup
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:36:9-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:36:9-36
 	android:theme
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:45:9-40
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:45:9-40
 	android:usesCleartextTraffic
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:46:9-44
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:46:9-44
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:35:9-56
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:35:9-56
 activity#com.qdocs.ssre241123.students.CbseExaminationActivity
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:49:9-51:40
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:49:9-51:40
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:51:13-37
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:51:13-37
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:50:13-81
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:50:13-81
 activity#com.qdocs.ssre241123.students.CbseTimeTableActivity
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:52:10-54:40
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:52:10-54:40
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:54:13-37
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:54:13-37
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:53:13-79
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:53:13-79
 activity#com.qdocs.ssre241123.students.StudentOfflinePayment
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:55:9-57:40
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:55:9-57:40
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:57:13-37
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:57:13-37
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:56:13-79
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:56:13-79
 activity#com.qdocs.ssre241123.students.BehaviourComment
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:58:9-60:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:58:9-60:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:60:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:60:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:59:13-74
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:59:13-74
 activity#com.qdocs.ssre241123.students.StudentVideoTutorialPlay
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:61:9-63:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:61:9-63:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:63:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:63:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:62:13-82
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:62:13-82
 activity#com.qdocs.ssre241123.students.StudentHomeworkNew
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:64:9-66:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:64:9-66:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:66:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:66:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:65:13-76
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:65:13-76
 activity#com.qdocs.ssre241123.students.NewDashboard
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:67:9-69:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:67:9-69:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:69:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:69:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:68:13-70
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:68:13-70
 activity#com.qdocs.ssre241123.students.StudentCoursePerformance
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:70:9-72:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:70:9-72:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:72:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:72:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:71:13-82
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:71:13-82
 activity#com.qdocs.ssre241123.students.StudentUploadDocument
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:73:9-75:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:73:9-75:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:75:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:75:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:74:13-79
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:74:13-79
 activity#com.qdocs.ssre241123.students.StudentDailyAssignment
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:76:9-78:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:76:9-78:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:78:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:78:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:77:13-80
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:77:13-80
 activity#com.qdocs.ssre241123.students.StudentProcessingFees
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:79:9-81:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:79:9-81:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:81:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:81:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:80:13-79
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:80:13-79
 activity#com.qdocs.ssre241123.students.StudentCourseDetail
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:82:9-85:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:82:9-85:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:85:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:85:13-36
 	android:configChanges
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:84:13-90
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:84:13-90
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:83:13-77
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:83:13-77
 activity#com.qdocs.ssre241123.students.StudentOnlineCourse
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:86:9-88:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:86:9-88:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:88:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:88:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:87:13-77
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:87:13-77
 activity#com.qdocs.ssre241123.students.StudentStartLessonActivity
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:89:9-92:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:89:9-92:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:92:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:92:13-36
 	android:configChanges
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:91:13-97
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:91:13-97
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:90:13-84
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:90:13-84
 activity#com.qdocs.ssre241123.students.StudentLiveClasses
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:93:9-95:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:93:9-95:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:95:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:95:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:94:13-76
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:94:13-76
 activity#com.qdocs.ssre241123.students.CourseExamResult
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:96:9-98:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:96:9-98:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:98:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:98:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:97:13-74
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:97:13-74
 activity#com.qdocs.ssre241123.students.StudentOfflinePaymentList
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:99:9-101:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:99:9-101:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:101:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:101:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:100:13-83
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:100:13-83
 activity#com.qdocs.ssre241123.students.StudentGmeetLiveClasses
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:102:9-104:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:102:9-104:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:104:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:104:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:103:13-81
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:103:13-81
 activity#com.qdocs.ssre241123.students.StudentBehaviourReport
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:105:9-107:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:105:9-107:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:107:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:107:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:106:13-80
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:106:13-80
 activity#com.qdocs.ssre241123.students.NotificationList
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:108:9-110:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:108:9-110:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:110:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:110:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:109:13-74
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:109:13-74
 activity#com.qdocs.ssre241123.students.AddCourseAssignment
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:111:9-113:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:111:9-113:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:113:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:113:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:112:13-77
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:112:13-77
 activity#com.qdocs.ssre241123.students.OnlineCourseExam
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:114:9-116:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:114:9-116:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:116:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:116:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:115:13-74
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:115:13-74
 activity#com.qdocs.ssre241123.students.StudentOnlineExamQuestionsNew
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:117:9-120:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:117:9-120:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:120:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:120:13-36
 	android:configChanges
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:119:13-59
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:119:13-59
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:118:13-87
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:118:13-87
 activity#com.qdocs.ssre241123.students.StudentOnlineExamResult
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:121:9-123:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:121:9-123:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:123:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:123:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:122:13-81
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:122:13-81
 activity#com.qdocs.ssre241123.students.StudentOnlineExam
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:124:9-126:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:124:9-126:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:126:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:126:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:125:13-75
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:125:13-75
 activity#com.qdocs.ssre241123.AboutSchool
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:127:9-129:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:127:9-129:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:129:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:129:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:128:13-60
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:128:13-60
 activity#com.qdocs.ssre241123.students.StudentTimeline
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:130:9-132:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:130:9-132:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:132:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:132:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:131:13-73
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:131:13-73
 activity#com.qdocs.ssre241123.students.StudentAddTimeLine
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:133:9-135:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:133:9-135:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:135:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:135:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:134:13-76
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:134:13-76
 activity#com.qdocs.ssre241123.students.StudentEditTimeLine
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:136:9-138:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:136:9-138:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:138:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:138:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:137:13-77
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:137:13-77
 activity#com.qdocs.ssre241123.students.StudentDocuments
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:139:9-141:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:139:9-141:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:141:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:141:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:140:13-74
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:140:13-74
 activity#com.qdocs.ssre241123.SplashActivity
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:142:9-149:20
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:142:9-149:20
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:144:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:144:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:143:13-63
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:143:13-63
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:145:13-148:29
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:145:13-148:29
 action#android.intent.action.MAIN
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:146:17-69
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:146:17-69
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:146:25-66
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:146:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:147:17-77
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:147:17-77
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:147:27-74
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:147:27-74
 activity#com.qdocs.ssre241123.Login
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:150:9-152:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:150:9-152:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:152:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:152:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:151:13-54
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:151:13-54
 activity#com.qdocs.ssre241123.students.StudentProfileDetailsNew
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:153:9-155:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:153:9-155:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:155:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:155:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:154:13-82
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:154:13-82
 activity#com.qdocs.ssre241123.students.StudentAddAssignment
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:156:9-158:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:156:9-158:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:158:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:158:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:157:13-78
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:157:13-78
 activity#com.qdocs.ssre241123.students.StudentEditAssignment
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:159:9-161:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:159:9-161:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:161:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:161:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:160:13-79
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:160:13-79
 activity#com.qdocs.ssre241123.students.StudentUploadHomework
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:162:9-164:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:162:9-164:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:164:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:164:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:163:13-79
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:163:13-79
 activity#com.qdocs.ssre241123.ForgotPassword
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:165:9-167:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:165:9-167:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:167:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:167:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:166:13-63
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:166:13-63
 activity#com.qdocs.ssre241123.BaseActivity
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:168:9-170:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:168:9-170:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:170:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:170:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:169:13-61
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:169:13-61
 activity#com.qdocs.ssre241123.students.StudentFees
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:171:9-173:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:171:9-173:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:173:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:173:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:172:13-69
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:172:13-69
 activity#com.qdocs.ssre241123.students.StudentNoticeBoard
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:174:9-176:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:174:9-176:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:176:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:176:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:175:13-76
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:175:13-76
 activity#com.qdocs.ssre241123.students.StudentExaminationList
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:177:9-179:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:177:9-179:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:179:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:179:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:178:13-80
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:178:13-80
 activity#com.qdocs.ssre241123.students.StudentReportCard_ExamListResult
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:180:9-182:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:180:9-182:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:182:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:182:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:181:13-90
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:181:13-90
 activity#com.qdocs.ssre241123.students.StudentSubjectList
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:183:9-185:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:183:9-185:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:185:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:185:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:184:13-76
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:184:13-76
 activity#com.qdocs.ssre241123.students.StudentTeachersList
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:186:9-188:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:186:9-188:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:188:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:188:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:187:13-77
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:187:13-77
 activity#com.qdocs.ssre241123.students.StudentTransportRoutes
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:189:9-191:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:189:9-191:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:191:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:191:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:190:13-80
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:190:13-80
 activity#com.qdocs.ssre241123.students.StudentDownloads
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:192:9-194:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:192:9-194:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:194:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:194:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:193:13-74
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:193:13-74
 activity#com.qdocs.ssre241123.students.StudentAttendance
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:195:9-197:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:195:9-197:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:197:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:197:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:196:13-75
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:196:13-75
 activity#com.qdocs.ssre241123.students.StudentReportCard_ExamList
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:198:9-200:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:198:9-200:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:200:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:200:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:199:13-84
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:199:13-84
 activity#com.qdocs.ssre241123.students.StudentExamSchedule_ExamList
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:201:9-203:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:201:9-203:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:203:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:203:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:202:13-86
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:202:13-86
 activity#com.qdocs.ssre241123.students.StudentExamSchedule
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:204:9-206:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:204:9-206:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:206:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:206:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:205:13-77
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:205:13-77
 activity#com.qdocs.ssre241123.students.StudentVisitorBook
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:207:9-209:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:207:9-209:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:209:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:209:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:208:13-76
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:208:13-76
 activity#com.qdocs.ssre241123.students.StudentHostel
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:210:9-212:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:210:9-212:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:212:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:212:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:211:13-71
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:211:13-71
 activity#com.qdocs.ssre241123.students.StudentLibraryBook
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:213:9-215:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:213:9-215:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:215:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:215:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:214:13-76
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:214:13-76
 activity#com.qdocs.ssre241123.students.StudentClassTimetable
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:216:9-218:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:216:9-218:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:218:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:218:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:217:13-79
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:217:13-79
 activity#com.qdocs.ssre241123.students.StudentSyllabusTimetable
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:219:9-221:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:219:9-221:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:221:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:221:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:220:13-82
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:220:13-82
 activity#com.qdocs.ssre241123.students.StudentSyllabusStatus
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:222:9-224:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:222:9-224:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:224:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:224:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:223:13-79
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:223:13-79
 activity#com.qdocs.ssre241123.students.StudentLibraryBookIssued
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:225:9-227:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:225:9-227:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:227:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:227:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:226:13-82
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:226:13-82
 activity#com.qdocs.ssre241123.students.StudentAppyLeave
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:228:9-230:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:228:9-230:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:230:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:230:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:229:13-74
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:229:13-74
 activity#com.qdocs.ssre241123.students.StudentAddLeave
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:231:9-233:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:231:9-233:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:233:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:233:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:232:13-73
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:232:13-73
 activity#com.qdocs.ssre241123.students.StudentEditLeave
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:234:9-236:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:234:9-236:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:236:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:236:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:235:13-74
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:235:13-74
 activity#com.qdocs.ssre241123.students.StudentSyllabus
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:237:9-239:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:237:9-239:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:239:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:239:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:238:13-73
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:238:13-73
 activity#com.qdocs.ssre241123.students.StudentOnlineQuizResult
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:240:9-242:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:240:9-242:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:242:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:242:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:241:13-81
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:241:13-81
 activity#com.qdocs.ssre241123.students.StudentSyllabuslesson
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:243:9-245:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:243:9-245:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:245:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:245:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:244:13-79
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:244:13-79
 activity#com.qdocs.ssre241123.students.StudentOnlineCourseQuiz
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:246:9-248:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:246:9-248:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:248:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:248:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:247:13-81
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:247:13-81
 activity#com.qdocs.ssre241123.SettingActivity
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:249:9-251:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:249:9-251:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:251:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:251:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:250:13-64
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:250:13-64
 activity#com.qdocs.ssre241123.TakeUrl
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:252:9-255:40
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:252:9-255:40
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:255:13-37
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:255:13-37
 	android:configChanges
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:254:13-59
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:254:13-59
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:253:13-56
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:253:13-56
 activity#com.qdocs.ssre241123.OpenPdf
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:256:9-258:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:256:9-258:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:258:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:258:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:257:13-56
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:257:13-56
 activity#com.qdocs.ssre241123.students.StudentTasks
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:259:9-261:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:259:9-261:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:261:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:261:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:260:13-70
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:260:13-70
 activity#com.qdocs.ssre241123.students.StudentTasksEdit
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:262:9-264:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:262:9-264:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:264:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:264:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:263:13-74
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:263:13-74
 activity#com.qdocs.ssre241123.students.Payment
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:265:9-267:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:265:9-267:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:267:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:267:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:266:13-65
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:266:13-65
 activity#com.qdocs.ssre241123.students.MultiplePayment
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:268:9-270:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:268:9-270:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:270:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:270:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:269:13-73
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:269:13-73
 activity#com.qdocs.ssre241123.students.CoursePayment
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:271:9-273:39
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:271:9-273:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:273:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:273:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:272:13-71
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:272:13-71
 activity#com.qdocs.ssre241123.students.CourseVideoPlay
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:274:9-278:53
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:274:9-278:53
 	android:screenOrientation
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:278:13-50
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:278:13-50
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:277:13-37
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:277:13-37
 	android:configChanges
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:276:13-59
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:276:13-59
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:275:13-73
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:275:13-73
 activity#com.qdocs.ssre241123.students.LiveClasses
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:279:9-281:40
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:279:9-281:40
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:281:13-37
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:281:13-37
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:280:13-69
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:280:13-69
 service#com.qdocs.ssre241123.utils.MyFirebaseMessagingService
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:283:9-289:19
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:283:9-289:19
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:285:13-36
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:285:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:284:13-81
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:284:13-81
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:286:13-288:29
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:286:13-288:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:287:17-78
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:287:17-78
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:287:25-75
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:287:25-75
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:296:13-298:58
+ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:296:13-298:58
 	android:resource
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:298:17-55
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:298:17-55
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml:297:17-67
+		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:297:17-67
 uses-sdk
-INJECTED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml
-INJECTED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml
+INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml
+INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.0.0-beta01] /Users/balab/.gradle/caches/transforms-3/795c86524f3a4b92a009042d95bd8589/transformed/material-1.0.0-beta01/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0-beta01] /Users/balab/.gradle/caches/transforms-3/795c86524f3a4b92a009042d95bd8589/transformed/material-1.0.0-beta01/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/balab/.gradle/caches/transforms-3/d3fd7daf1d8796e5b1ef531309cda3ef/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
@@ -856,9 +856,9 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/balab/.gradle/cach
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/balab/.gradle/caches/transforms-3/1aaf244137f2859c166b7b6ec2c63d68/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/balab/.gradle/caches/transforms-3/1aaf244137f2859c166b7b6ec2c63d68/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		INJECTED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Volumes/WORK/FlutterApps/minervaandroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml
 service#com.google.firebase.messaging.FirebaseMessagingService
 ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/balab/.gradle/caches/transforms-3/1ef4ec9a0b5e9c4f3d7aa1d928ff3626/transformed/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:28:9-34:19
 	android:exported
