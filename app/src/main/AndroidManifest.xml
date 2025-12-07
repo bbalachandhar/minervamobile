@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.qdocs.ssre241123">
+
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        android:required="false" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_FILE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission
+        android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true"/>
+
+    <application
+        android:name="com.qdocs.ssre241123.utils.MyApp"
+        android:allowBackup="false"
+        android:configChanges="orientation|screenSize"
+        android:exported="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        tools:targetApi="31">
+        <activity
+            android:name="com.qdocs.ssre241123.students.CbseExaminationActivity"
+            android:exported="false" />
+        `<activity
+            android:name="com.qdocs.ssre241123.students.CbseTimeTableActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentOfflinePayment"
+            android:exported="false" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.BehaviourComment"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentVideoTutorialPlay"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentHomeworkNew"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.NewDashboard"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentCoursePerformance"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentUploadDocument"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentDailyAssignment"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentProcessingFees"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentCourseDetail"
+            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentOnlineCourse"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentStartLessonActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection|uiMode"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentLiveClasses"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.CourseExamResult"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentOfflinePaymentList"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentGmeetLiveClasses"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentBehaviourReport"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.NotificationList"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.AddCourseAssignment"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.OnlineCourseExam"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentOnlineExamQuestionsNew"
+            android:configChanges="orientation|screenSize"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentOnlineExamResult"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentOnlineExam"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.AboutSchool"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentTimeline"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentAddTimeLine"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentEditTimeLine"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentDocuments"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.qdocs.ssre241123.Login"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentProfileDetailsNew"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentAddAssignment"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentEditAssignment"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentUploadHomework"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.ForgotPassword"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.BaseActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentFees"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentNoticeBoard"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentExaminationList"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentReportCard_ExamListResult"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentSubjectList"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentTeachersList"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentTransportRoutes"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentDownloads"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentAttendance"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentReportCard_ExamList"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentExamSchedule_ExamList"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentExamSchedule"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentVisitorBook"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentHostel"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentLibraryBook"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentClassTimetable"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentSyllabusTimetable"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentSyllabusStatus"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentLibraryBookIssued"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentAppyLeave"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentAddLeave"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentEditLeave"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentSyllabus"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentOnlineQuizResult"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentSyllabuslesson"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentOnlineCourseQuiz"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.SettingActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.TakeUrl"
+            android:configChanges="orientation|screenSize"
+            android:exported="false" />
+        <activity
+            android:name="com.qdocs.ssre241123.OpenPdf"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentTasks"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.StudentTasksEdit"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.Payment"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.MultiplePayment"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.CoursePayment"
+            android:exported="true" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.CourseVideoPlay"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.qdocs.ssre241123.students.LiveClasses"
+            android:exported="false" />
+
+        <service
+            android:name="com.qdocs.ssre241123.utils.MyFirebaseMessagingService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

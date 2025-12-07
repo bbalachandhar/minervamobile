@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">380217929566</string>
+    <string name="google_api_key" translatable="false">AIzaSyCRxx6olh-wh63OtiWsb_gXvLKGWz6PAM8</string>
+    <string name="google_app_id" translatable="false">1:380217929566:android:a46f1b3ea635e45e31a9cf</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCRxx6olh-wh63OtiWsb_gXvLKGWz6PAM8</string>
+    <string name="google_storage_bucket" translatable="false">smartschool-re-2411-ab67d.firebasestorage.app</string>
+    <string name="project_id" translatable="false">smartschool-re-2411-ab67d</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/adapter_student_feesDetail_viewContainer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/paymentDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingEnd="5dp"
+            android:textSize="@dimen/secondaryText"
+            android:textColor="@color/textHeading"
+            android:text="@string/empty"
+
+            />
+
+        <TextView
+            android:id="@+id/paymentId"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/secondaryText"
+            android:gravity="center"
+            android:textColor="@color/textHeading"
+            android:text="@string/empty"
+            />
+
+
+
+        <TextView
+            android:id="@+id/feesdiscount"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/secondaryText"
+            android:gravity="center"
+            android:textColor="@color/textHeading"
+            android:text="@string/empty"
+            />
+
+        <TextView
+            android:id="@+id/value"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/secondaryText"
+            android:gravity="center"
+            android:textColor="@color/textHeading"
+            android:text="@string/empty"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

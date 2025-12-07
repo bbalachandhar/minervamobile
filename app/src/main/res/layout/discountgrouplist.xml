@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/feesdiscount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feesdiscount"
+            android:gravity="start"
+            android:textColor="@color/textHeading"
+            android:textSize="@dimen/secondaryText"
+            />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/availablecount"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/availablecount"
+            android:gravity="center"
+            android:textColor="@color/textHeading"
+            android:textSize="@dimen/secondaryText"
+            />
+        <TextView
+            android:id="@+id/value"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/value"
+            android:gravity="center"
+            android:textColor="@color/textHeading"
+            android:textSize="@dimen/secondaryText"
+            />
+    </LinearLayout>
+
+</LinearLayout>
