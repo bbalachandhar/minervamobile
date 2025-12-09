@@ -13,4 +13,5 @@ class AppConstants {
   static const String primaryColourKey = "primaryColour";
   static const String secondaryColourKey = "secondaryColour";
   static const String imagesUrlKey = "imagesUrl";
+  static const String getVisitorsUrl = "webservice/getVisitors";
 }

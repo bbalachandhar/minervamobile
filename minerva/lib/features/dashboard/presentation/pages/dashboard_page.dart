@@ -186,6 +186,9 @@ class _DashboardPageState extends State<DashboardPage> {
       case 'transport routes': // New case for Transport Routes
         context.push('/transport_routes');
         break;
+      case 'visitor book': // New case for Visitor Book
+        context.push('/visitor_book');
+        break;
       default:
         // Do nothing for now
         break;

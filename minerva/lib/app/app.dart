@@ -50,6 +50,10 @@ import 'package:minerva_flutter/features/apply_leave/domain/usecases/submit_leav
 import 'package:minerva_flutter/features/transport_route/data/repositories/transport_route_repository.dart';
 import 'package:minerva_flutter/features/transport_route/presentation/bloc/transport_route_bloc.dart';
 import 'package:minerva_flutter/features/transport_route/presentation/pages/transport_route_page.dart';
+import 'package:minerva_flutter/features/visitor_book/data/repositories/visitor_repository.dart';
+import 'package:minerva_flutter/features/visitor_book/presentation/bloc/visitor_bloc.dart';
+import 'package:minerva_flutter/features/visitor_book/presentation/pages/visitor_book_page.dart';
+import 'package:minerva_flutter/features/visitor_book/presentation/pages/document_viewer_page.dart';
 
 
 
@@ -150,6 +154,22 @@ class App extends StatelessWidget {
           return const TransportRoutePage();
         },
       ),
+      GoRoute(
+        path: '/visitor_book',
+        builder: (BuildContext context, GoRouterState state) {
+          return const VisitorBookPage();
+        },
+      ),
+      GoRoute(
+        path: '/document_viewer',
+        builder: (BuildContext context, GoRouterState state) {
+          final Map<String, dynamic> args = state.extra as Map<String, dynamic>;
+          return DocumentViewerPage(
+            documentUrl: args['documentUrl'],
+            title: args['title'],
+          );
+        },
+      ),
     ],
   );
 
@@ -183,6 +203,11 @@ class App extends StatelessWidget {
         ),
         RepositoryProvider<TransportRouteRepository>(
           create: (context) => TransportRouteRepositoryImpl(
+            sharedPreferences: sharedPreferences,
+          ),
+        ),
+        RepositoryProvider<VisitorRepository>(
+          create: (context) => VisitorRepositoryImpl(
             sharedPreferences: sharedPreferences,
           ),
         ),
@@ -263,6 +288,11 @@ class App extends StatelessWidget {
           BlocProvider(
             create: (context) => TransportRouteBloc(
               transportRouteRepository: RepositoryProvider.of<TransportRouteRepository>(context),
+            ),
+          ),
+          BlocProvider(
+            create: (context) => VisitorBloc(
+              visitorRepository: RepositoryProvider.of<VisitorRepository>(context),
             ),
           ),
         ],
