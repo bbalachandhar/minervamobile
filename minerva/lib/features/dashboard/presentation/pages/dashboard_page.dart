@@ -183,6 +183,9 @@ class _DashboardPageState extends State<DashboardPage> {
       case 'apply leave': // New case for Apply Leave
         context.push('/apply_leave');
         break;
+      case 'transport routes': // New case for Transport Routes
+        context.push('/transport_routes');
+        break;
       default:
         // Do nothing for now
         break;

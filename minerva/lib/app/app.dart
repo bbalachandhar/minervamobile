@@ -45,8 +45,12 @@ import 'package:minerva_flutter/features/apply_leave/presentation/pages/add_leav
 import 'package:minerva_flutter/features/apply_leave/presentation/pages/edit_leave_page.dart';
 import 'package:minerva_flutter/features/apply_leave/domain/entities/leave_application_entity.dart';
 
-import '../features/apply_leave/domain/usecases/edit_leave_application_usecase.dart';
-import '../features/apply_leave/domain/usecases/submit_leave_application_usecase.dart';
+import 'package:minerva_flutter/features/apply_leave/domain/usecases/edit_leave_application_usecase.dart';
+import 'package:minerva_flutter/features/apply_leave/domain/usecases/submit_leave_application_usecase.dart';
+import 'package:minerva_flutter/features/transport_route/data/repositories/transport_route_repository.dart';
+import 'package:minerva_flutter/features/transport_route/presentation/bloc/transport_route_bloc.dart';
+import 'package:minerva_flutter/features/transport_route/presentation/pages/transport_route_page.dart';
+
 
 
 
@@ -140,6 +144,12 @@ class App extends StatelessWidget {
           ),
         ],
       ),
+      GoRoute(
+        path: '/transport_routes',
+        builder: (BuildContext context, GoRouterState state) {
+          return const TransportRoutePage();
+        },
+      ),
     ],
   );
 
@@ -170,6 +180,11 @@ class App extends StatelessWidget {
         ),
         RepositoryProvider<LeaveRepository>(
           create: (context) => LeaveRepositoryImpl(sharedPreferences: sharedPreferences),
+        ),
+        RepositoryProvider<TransportRouteRepository>(
+          create: (context) => TransportRouteRepositoryImpl(
+            sharedPreferences: sharedPreferences,
+          ),
         ),
       ],
       child: MultiBlocProvider(
@@ -237,12 +252,17 @@ class App extends StatelessWidget {
               deleteLeaveApplicationUseCase: DeleteLeaveApplicationUseCase(
                 repository: RepositoryProvider.of<LeaveRepository>(context),
               ),
-              submitLeaveApplicationUseCase: SubmitLeaveApplicationUseCase( // New UseCase
+              submitLeaveApplicationUseCase: SubmitLeaveApplicationUseCase(
                 repository: RepositoryProvider.of<LeaveRepository>(context),
               ),
-              editLeaveApplicationUseCase: EditLeaveApplicationUseCase( // New UseCase
+              editLeaveApplicationUseCase: EditLeaveApplicationUseCase(
                 repository: RepositoryProvider.of<LeaveRepository>(context),
               ),
+            ),
+          ),
+          BlocProvider(
+            create: (context) => TransportRouteBloc(
+              transportRouteRepository: RepositoryProvider.of<TransportRouteRepository>(context),
             ),
           ),
         ],
