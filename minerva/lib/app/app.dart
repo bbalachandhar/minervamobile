@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
 import 'package:minerva_flutter/features/about_school/data/repositories/about_school_repository.dart';
 import 'package:minerva_flutter/features/about_school/presentation/bloc/about_school_bloc.dart';
 import 'package:minerva_flutter/features/about_school/presentation/pages/about_school_page.dart';
@@ -23,9 +25,17 @@ import 'package:minerva_flutter/features/splash/presentation/pages/splash_page.d
 import 'package:minerva_flutter/features/url/data/repositories/settings_repository.dart';
 import 'package:minerva_flutter/features/url/presentation/bloc/url_bloc.dart';
 import 'package:minerva_flutter/features/url/presentation/pages/url_page.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'package:minerva_flutter/features/fees/presentation/pages/offline_payment_screen.dart';
 
-import '../features/fees/presentation/pages/offline_payment_screen.dart';
+// NEW IMPORTS FOR NOTICE FEATURE
+import 'package:minerva_flutter/features/notice/data/repositories/notice_repository_impl.dart';
+import 'package:minerva_flutter/features/notice/domain/repositories/notice_repository.dart';
+import 'package:minerva_flutter/features/notice/domain/usecases/get_notices_usecase.dart';
+import 'package:minerva_flutter/features/notice/presentation/bloc/notice_bloc.dart';
+import 'package:minerva_flutter/features/notice/presentation/pages/notice_page.dart';
+
+
+
 
 class App extends StatelessWidget {
   final SharedPreferences sharedPreferences;
@@ -89,6 +99,12 @@ class App extends StatelessWidget {
           return OfflinePaymentScreen();
         },
       ),
+      GoRoute(
+        path: '/notice_board', // New route for NoticePage
+        builder: (BuildContext context, GoRouterState state) {
+          return const NoticePage();
+        },
+      ),
     ],
   );
 
@@ -113,6 +129,9 @@ class App extends StatelessWidget {
         ),
         RepositoryProvider<FeesRepository>(
           create: (context) => FeesRepository(sharedPreferences: sharedPreferences),
+        ),
+        RepositoryProvider<NoticeRepository>(
+          create: (context) => NoticeRepositoryImpl(sharedPreferences: sharedPreferences),
         ),
       ],
       child: MultiBlocProvider(
@@ -163,6 +182,13 @@ class App extends StatelessWidget {
             create: (context) => OfflinePaymentBloc(
               feesRepository:
                   RepositoryProvider.of<FeesRepository>(context),
+            ),
+          ),
+          BlocProvider(
+            create: (context) => NoticeBloc(
+              getNoticesUseCase: GetNoticesUseCase(
+                repository: RepositoryProvider.of<NoticeRepository>(context),
+              ),
             ),
           ),
         ],

@@ -171,36 +171,37 @@ class _ProfilePageState extends State<ProfilePage> with SingleTickerProviderStat
                     ),
                   ),
                   const SizedBox(height: 20), // Spacing between header card and tabs card
-                  Card( // Card for TabBar and TabBarView
-                    margin: const EdgeInsets.symmetric(horizontal: 10),
-                    elevation: 5,
-                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
-                    color: Colors.white,
-                    child: Column(
-                      children: [
-                        TabBar(
-                          controller: _tabController,
-                          labelColor: primaryColour, // Color of the selected tab's text
-                          unselectedLabelColor: Colors.grey, // Color of unselected tab's text
-                          indicatorColor: primaryColour, // Color of the tab indicator
-                          tabs: const [
-                            Tab(text: 'Personal Details'),
-                            Tab(text: 'Parents Details'),
-                            Tab(text: 'Other Details'),
-                          ],
-                        ),
-                        SizedBox( // Give TabBarView a specific height or wrap in Expanded
-                          height: MediaQuery.of(context).size.height * 0.5, // Example height, adjust as needed
-                          child: TabBarView(
+                  Expanded( // This Card should take the remaining space
+                    child: Card( // Card for TabBar and TabBarView
+                      margin: const EdgeInsets.symmetric(horizontal: 10),
+                      elevation: 5,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+                      color: Colors.white,
+                      child: Column(
+                        children: [
+                          TabBar(
                             controller: _tabController,
-                            children: [
-                              PersonalDetailsTab(profile: profile),
-                              ParentsDetailsTab(profile: profile),
-                              OtherDetailsTab(profile: profile),
+                            labelColor: primaryColour, // Color of the selected tab's text
+                            unselectedLabelColor: Colors.grey, // Color of unselected tab's text
+                            indicatorColor: primaryColour, // Color of the tab indicator
+                            tabs: const [
+                              Tab(text: 'Personal Details'),
+                              Tab(text: 'Parents Details'),
+                              Tab(text: 'Other Details'),
                             ],
                           ),
-                        ),
-                      ],
+                          Expanded( // TabBarView should take the remaining space within this inner Column
+                            child: TabBarView(
+                              controller: _tabController,
+                              children: [
+                                PersonalDetailsTab(profile: profile),
+                                ParentsDetailsTab(profile: profile),
+                                OtherDetailsTab(profile: profile),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 ],
