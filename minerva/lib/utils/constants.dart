@@ -1,6 +1,7 @@
 class Constants {
   static const String clientService = "smartschool";
   static const String authKey = "schoolAdmin@";
+  static const String contentType = "application/json";
   static const String loginUrl = "auth/login";
   static const String getStudentProfileUrl = "webservice/getStudentProfile";
   static const String getHomeworkUrl = "webservice/getHomework";

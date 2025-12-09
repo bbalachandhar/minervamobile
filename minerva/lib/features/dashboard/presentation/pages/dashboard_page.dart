@@ -180,6 +180,9 @@ class _DashboardPageState extends State<DashboardPage> {
       case 'notice board': // New case for Notice Board
         context.push('/notice_board');
         break;
+      case 'apply leave': // New case for Apply Leave
+        context.push('/apply_leave');
+        break;
       default:
         // Do nothing for now
         break;

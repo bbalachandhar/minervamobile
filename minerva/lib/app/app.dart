@@ -34,6 +34,20 @@ import 'package:minerva_flutter/features/notice/domain/usecases/get_notices_usec
 import 'package:minerva_flutter/features/notice/presentation/bloc/notice_bloc.dart';
 import 'package:minerva_flutter/features/notice/presentation/pages/notice_page.dart';
 
+// Imports for Apply Leave Feature
+import 'package:minerva_flutter/features/apply_leave/data/repositories/leave_repository_impl.dart';
+import 'package:minerva_flutter/features/apply_leave/domain/repositories/leave_repository.dart';
+import 'package:minerva_flutter/features/apply_leave/domain/usecases/get_leave_applications_usecase.dart';
+import 'package:minerva_flutter/features/apply_leave/domain/usecases/delete_leave_application_usecase.dart';
+import 'package:minerva_flutter/features/apply_leave/presentation/bloc/apply_leave_bloc.dart';
+import 'package:minerva_flutter/features/apply_leave/presentation/pages/apply_leave_page.dart';
+import 'package:minerva_flutter/features/apply_leave/presentation/pages/add_leave_page.dart';
+import 'package:minerva_flutter/features/apply_leave/presentation/pages/edit_leave_page.dart';
+import 'package:minerva_flutter/features/apply_leave/domain/entities/leave_application_entity.dart';
+
+import '../features/apply_leave/domain/usecases/edit_leave_application_usecase.dart';
+import '../features/apply_leave/domain/usecases/submit_leave_application_usecase.dart';
+
 
 
 
@@ -105,6 +119,27 @@ class App extends StatelessWidget {
           return const NoticePage();
         },
       ),
+      GoRoute(
+        path: '/apply_leave',
+        builder: (BuildContext context, GoRouterState state) {
+          return const ApplyLeavePage();
+        },
+        routes: [
+          GoRoute(
+            path: 'add',
+            builder: (BuildContext context, GoRouterState state) {
+              return const AddLeavePage();
+            },
+          ),
+          GoRoute(
+            path: 'edit',
+            builder: (BuildContext context, GoRouterState state) {
+              final leaveApplication = state.extra as LeaveApplicationEntity;
+              return EditLeavePage(leaveApplication: leaveApplication);
+            },
+          ),
+        ],
+      ),
     ],
   );
 
@@ -132,6 +167,9 @@ class App extends StatelessWidget {
         ),
         RepositoryProvider<NoticeRepository>(
           create: (context) => NoticeRepositoryImpl(sharedPreferences: sharedPreferences),
+        ),
+        RepositoryProvider<LeaveRepository>(
+          create: (context) => LeaveRepositoryImpl(sharedPreferences: sharedPreferences),
         ),
       ],
       child: MultiBlocProvider(
@@ -188,6 +226,22 @@ class App extends StatelessWidget {
             create: (context) => NoticeBloc(
               getNoticesUseCase: GetNoticesUseCase(
                 repository: RepositoryProvider.of<NoticeRepository>(context),
+              ),
+            ),
+          ),
+          BlocProvider(
+            create: (context) => ApplyLeaveBloc(
+              getLeaveApplicationsUseCase: GetLeaveApplicationsUseCase(
+                repository: RepositoryProvider.of<LeaveRepository>(context),
+              ),
+              deleteLeaveApplicationUseCase: DeleteLeaveApplicationUseCase(
+                repository: RepositoryProvider.of<LeaveRepository>(context),
+              ),
+              submitLeaveApplicationUseCase: SubmitLeaveApplicationUseCase( // New UseCase
+                repository: RepositoryProvider.of<LeaveRepository>(context),
+              ),
+              editLeaveApplicationUseCase: EditLeaveApplicationUseCase( // New UseCase
+                repository: RepositoryProvider.of<LeaveRepository>(context),
               ),
             ),
           ),

@@ -1,8 +1,6 @@
-// minerva/lib/features/notice/presentation/pages/notice_page.dart
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:minerva_flutter/features/notice/domain/entities/notice_entity.dart';
 import 'package:minerva_flutter/features/notice/presentation/bloc/notice_bloc.dart';
 import 'package:minerva_flutter/features/notice/presentation/bloc/notice_event.dart';
 import 'package:minerva_flutter/features/notice/presentation/bloc/notice_state.dart';
