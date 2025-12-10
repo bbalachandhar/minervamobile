@@ -59,6 +59,15 @@ import 'package:minerva_flutter/features/hostel/data/repositories/hostel_reposit
 import 'package:minerva_flutter/features/hostel/domain/repositories/hostel_repository.dart';
 import 'package:minerva_flutter/features/hostel/domain/usecases/get_hostel_rooms_usecase.dart';
 import 'package:minerva_flutter/features/hostel/presentation/bloc/hostel_bloc.dart';
+import 'package:minerva_flutter/features/calendar_todo/data/repositories/calendar_todo_repository_impl.dart';
+import 'package:minerva_flutter/features/calendar_todo/domain/repositories/calendar_todo_repository.dart';
+import 'package:minerva_flutter/features/calendar_todo/domain/usecases/create_calendar_todo_usecase.dart';
+import 'package:minerva_flutter/features/calendar_todo/domain/usecases/delete_calendar_todo_usecase.dart';
+import 'package:minerva_flutter/features/calendar_todo/domain/usecases/get_calendar_todos_usecase.dart';
+import 'package:minerva_flutter/features/calendar_todo/domain/usecases/mark_calendar_todo_as_complete_usecase.dart';
+import 'package:minerva_flutter/features/calendar_todo/domain/usecases/update_calendar_todo_usecase.dart';
+import 'package:minerva_flutter/features/calendar_todo/presentation/bloc/calendar_todo_bloc.dart';
+import 'package:minerva_flutter/features/calendar_todo/presentation/pages/calendar_todo_page.dart';
 
 
 
@@ -181,6 +190,12 @@ class App extends StatelessWidget {
           return const HostelRoomsPage();
         },
       ),
+      GoRoute(
+        path: '/calendar_todo',
+        builder: (BuildContext context, GoRouterState state) {
+          return const CalendarTodoPage();
+        },
+      ),
     ],
   );
 
@@ -224,6 +239,9 @@ class App extends StatelessWidget {
         ),
         RepositoryProvider<HostelRepository>(
           create: (context) => HostelRepositoryImpl(sharedPreferences: sharedPreferences),
+        ),
+        RepositoryProvider<CalendarTodoRepository>(
+          create: (context) => CalendarTodoRepositoryImpl(sharedPreferences: sharedPreferences),
         ),
       ],
       child: MultiBlocProvider(
@@ -313,6 +331,25 @@ class App extends StatelessWidget {
             create: (context) => HostelBloc(
               getHostelRoomsUseCase: GetHostelRoomsUseCase(
                 repository: RepositoryProvider.of<HostelRepository>(context),
+              ),
+            ),
+          ),
+          BlocProvider(
+            create: (context) => CalendarTodoBloc(
+              getCalendarTodosUseCase: GetCalendarTodosUseCase(
+                repository: RepositoryProvider.of<CalendarTodoRepository>(context),
+              ),
+              createCalendarTodoUseCase: CreateCalendarTodoUseCase(
+                repository: RepositoryProvider.of<CalendarTodoRepository>(context),
+              ),
+              updateCalendarTodoUseCase: UpdateCalendarTodoUseCase(
+                repository: RepositoryProvider.of<CalendarTodoRepository>(context),
+              ),
+              deleteCalendarTodoUseCase: DeleteCalendarTodoUseCase(
+                repository: RepositoryProvider.of<CalendarTodoRepository>(context),
+              ),
+              markCalendarTodoAsCompleteUseCase: MarkCalendarTodoAsCompleteUseCase(
+                repository: RepositoryProvider.of<CalendarTodoRepository>(context),
               ),
             ),
           ),

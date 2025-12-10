@@ -244,6 +244,9 @@ class _DashboardPageState extends State<DashboardPage> {
       case 'hostel rooms':
         context.push('/hostel');
         break;
+      case 'calendar to do list':
+        context.push('/calendar_todo');
+        break;
       default:
         // Do nothing for now
         break;
