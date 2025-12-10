@@ -54,6 +54,11 @@ import 'package:minerva_flutter/features/visitor_book/data/repositories/visitor_
 import 'package:minerva_flutter/features/visitor_book/presentation/bloc/visitor_bloc.dart';
 import 'package:minerva_flutter/features/visitor_book/presentation/pages/visitor_book_page.dart';
 import 'package:minerva_flutter/features/visitor_book/presentation/pages/document_viewer_page.dart';
+import 'package:minerva_flutter/features/hostel/presentation/pages/hostel_rooms_page.dart';
+import 'package:minerva_flutter/features/hostel/data/repositories/hostel_repository_impl.dart';
+import 'package:minerva_flutter/features/hostel/domain/repositories/hostel_repository.dart';
+import 'package:minerva_flutter/features/hostel/domain/usecases/get_hostel_rooms_usecase.dart';
+import 'package:minerva_flutter/features/hostel/presentation/bloc/hostel_bloc.dart';
 
 
 
@@ -170,6 +175,12 @@ class App extends StatelessWidget {
           );
         },
       ),
+      GoRoute(
+        path: '/hostel',
+        builder: (BuildContext context, GoRouterState state) {
+          return const HostelRoomsPage();
+        },
+      ),
     ],
   );
 
@@ -210,6 +221,9 @@ class App extends StatelessWidget {
           create: (context) => VisitorRepositoryImpl(
             sharedPreferences: sharedPreferences,
           ),
+        ),
+        RepositoryProvider<HostelRepository>(
+          create: (context) => HostelRepositoryImpl(sharedPreferences: sharedPreferences),
         ),
       ],
       child: MultiBlocProvider(
@@ -293,6 +307,13 @@ class App extends StatelessWidget {
           BlocProvider(
             create: (context) => VisitorBloc(
               visitorRepository: RepositoryProvider.of<VisitorRepository>(context),
+            ),
+          ),
+          BlocProvider(
+            create: (context) => HostelBloc(
+              getHostelRoomsUseCase: GetHostelRoomsUseCase(
+                repository: RepositoryProvider.of<HostelRepository>(context),
+              ),
             ),
           ),
         ],

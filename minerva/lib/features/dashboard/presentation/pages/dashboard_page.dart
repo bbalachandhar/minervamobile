@@ -58,10 +58,7 @@ class _DashboardPageState extends State<DashboardPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Dashboard'),
-        backgroundColor: secondaryColour, // Apply secondary color to AppBar
-      ),
+      backgroundColor: const Color(0xFFE7F1EE),
       drawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,
@@ -79,17 +76,17 @@ class _DashboardPageState extends State<DashboardPage> {
                         ? NetworkImage(userImage)
                         : AssetImage(userImage) as ImageProvider,
                   ),
-                  SizedBox(height: 10),
+                  const SizedBox(height: 10),
                   Text(
                     userName,
-                    style: TextStyle(
+                    style: const TextStyle(
                       color: Colors.white,
                       fontSize: 20,
                     ),
                   ),
                   Text(
                     classSection,
-                    style: TextStyle(
+                    style: const TextStyle(
                       color: Colors.white,
                       fontSize: 14,
                     ),
@@ -98,81 +95,136 @@ class _DashboardPageState extends State<DashboardPage> {
               ),
             ),
             ListTile(
-              leading: Icon(Icons.home),
-              title: Text('Home'),
+              leading: const Icon(Icons.home),
+              title: const Text('Home'),
               onTap: () {
-                // Navigate to Home - currently stays on dashboard
                 Navigator.pop(context); // Close the drawer
               },
             ),
             ListTile(
-              leading: Icon(Icons.person),
-              title: Text('Profile'),
+              leading: const Icon(Icons.person),
+              title: const Text('Profile'),
               onTap: () {
-                context.push('/profile'); // Changed to push to allow popping back
+                context.push('/profile');
                 Navigator.pop(context); // Close the drawer
               },
             ),
             ListTile(
-              leading: Icon(Icons.info),
-              title: Text('About'),
+              leading: const Icon(Icons.info),
+              title: const Text('About'),
               onTap: () {
-                context.push('/about_school'); // Navigate to About School
+                context.push('/about_school');
                 Navigator.pop(context); // Close the drawer
               },
             ),
             ListTile(
-              leading: Icon(Icons.settings),
-              title: Text('Setting'),
+              leading: const Icon(Icons.settings),
+              title: const Text('Setting'),
               onTap: () {
-                // Navigate to Setting
                 Navigator.pop(context); // Close the drawer
               },
             ),
             ListTile(
-              leading: Icon(Icons.logout),
-              title: Text('Logout'),
+              leading: const Icon(Icons.logout),
+              title: const Text('Logout'),
               onTap: () {
-                // Handle Logout
                 Navigator.pop(context); // Close the drawer
               },
             ),
           ],
         ),
       ),
-      body: BlocBuilder<DashboardBloc, DashboardState>(
-        builder: (context, state) {
-          if (state is DashboardLoading) {
-            log('DashboardPage - State: DashboardLoading');
-            return const Center(child: CircularProgressIndicator());
-          } else if (state is DashboardLoaded) {
-            log('DashboardPage - State: DashboardLoaded');
-            log('DashboardPage - elearningModules count: ${state.elearningModules.length}');
-            log('DashboardPage - academicModules count: ${state.academicModules.length}');
-            log('DashboardPage - communicateModules count: ${state.communicateModules.length}');
-            log('DashboardPage - otherModules count: ${state.otherModules.length}');
-            return SingleChildScrollView(
-              child: Column(
+      body: CustomScrollView(
+        slivers: <Widget>[
+          SliverAppBar(
+            backgroundColor: const Color(0xFFE7F1EE),
+            pinned: true,
+            floating: false,
+            expandedHeight: 250.0,
+            iconTheme: const IconThemeData(color: Colors.black),
+            title: Image.asset('assets/splash_logo.png', height: 45),
+            centerTitle: true,
+            actions: [
+              IconButton(
+                icon: Image.asset('assets/ic_notification.png', width: 25, height: 25),
+                onPressed: () {
+                  // TODO: Handle notification tap
+                },
+              ),
+            ],
+            flexibleSpace: FlexibleSpaceBar(
+              background: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  _buildModuleSection('E-Learning', state.elearningModules),
-                  _buildModuleSection('Academic', state.academicModules),
-                  _buildModuleSection('Communicate', state.communicateModules),
-                  _buildModuleSection('Other', state.otherModules),
+                  const SizedBox(height: 56), // Space for app bar
+                  CircleAvatar(
+                    radius: 40,
+                    backgroundImage: userImage.startsWith('http')
+                        ? NetworkImage(userImage) as ImageProvider
+                        : AssetImage(userImage),
+                  ),
+                  const SizedBox(height: 10),
+                  Text(
+                    userName,
+                    style: const TextStyle(
+                        color: Colors.black,
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold),
+                  ),
+                  Text(
+                    classSection,
+                    style: const TextStyle(color: Colors.black, fontSize: 14),
+                  ),
                 ],
               ),
-            );
-          } else if (state is DashboardError) {
-            log('DashboardPage - State: DashboardError - ${state.message}');
-            return Center(child: Text(state.message));
-          }
-          log('DashboardPage - State: Initial or unknown');
-          return const Center(child: Text('Dashboard Page Content (Initial)'));
-        },
+            ),
+          ),
+          SliverToBoxAdapter(
+            child: Card(
+              margin: const EdgeInsets.only(top: 10),
+              shape: const RoundedRectangleBorder(
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(20),
+                  topRight: Radius.circular(20),
+                ),
+              ),
+              elevation: 3,
+              child: BlocBuilder<DashboardBloc, DashboardState>(
+                builder: (context, state) {
+                  if (state is DashboardLoading) {
+                    log('DashboardPage - State: DashboardLoading');
+                    return const Center(child: Padding(
+                      padding: EdgeInsets.all(32.0),
+                      child: CircularProgressIndicator(),
+                    ));
+                  } else if (state is DashboardLoaded) {
+                    log('DashboardPage - State: DashboardLoaded');
+                    return Column(
+                      children: [
+                        const SizedBox(height: 10), // Add some space at the top
+                        _buildModuleSection('E-Learning', state.elearningModules),
+                        _buildModuleSection('Academic', state.academicModules),
+                        _buildModuleSection('Communicate', state.communicateModules),
+                        _buildModuleSection('Other', state.otherModules),
+                      ],
+                    );
+                  } else if (state is DashboardError) {
+                    log('DashboardPage - State: DashboardError - ${state.message}');
+                    return Center(child: Text(state.message));
+                  }
+                  log('DashboardPage - State: Initial or unknown');
+                  return const Center(child: Text('Dashboard Page Content (Initial)'));
+                },
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
 
   void _onModuleTapped(Module module) {
+    log('Tapped on module: ${module.name}');
     switch (module.name.toLowerCase()) {
       case 'fees':
         context.push('/fees');
@@ -189,6 +241,9 @@ class _DashboardPageState extends State<DashboardPage> {
       case 'visitor book': // New case for Visitor Book
         context.push('/visitor_book');
         break;
+      case 'hostel rooms':
+        context.push('/hostel');
+        break;
       default:
         // Do nothing for now
         break;
@@ -199,53 +254,56 @@ class _DashboardPageState extends State<DashboardPage> {
     if (modules.isEmpty) {
       return const SizedBox.shrink(); // Hide section if no modules
     }
-    log('Building section "$title" with ${modules.length} modules.'); // Log module count per section
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Text(
-            title,
-            style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-          ),
-        ),
-        Card( // New Card to group GridView
-          margin: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0), // Add margin around the card
-          elevation: 2.0,
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8.0)), // Optional: rounded corners
-          child: Padding(
-            padding: const EdgeInsets.all(8.0), // Padding inside the card
-            child: GridView.builder(
+    log('Building section "$title" with ${modules.length} modules.');
+
+    return Card(
+      margin: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
+      elevation: 10.0,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15.0)),
+      child: Padding(
+        padding: const EdgeInsets.all(10.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              title,
+              style: const TextStyle(
+                fontSize: 16, // Approximate from @dimen/btntext
+                fontWeight: FontWeight.bold,
+                color: Colors.black54, // Approximate from @color/hintDark
+              ),
+            ),
+            const SizedBox(height: 10),
+            GridView.builder(
               shrinkWrap: true,
               physics: const NeverScrollableScrollPhysics(),
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 4,
-                crossAxisSpacing: 8.0, // Horizontal spacing between tiles
-                mainAxisSpacing: 8.0, // Vertical spacing between tiles
+                crossAxisSpacing: 8.0,
+                mainAxisSpacing: 8.0,
               ),
               itemCount: modules.length,
               itemBuilder: (context, index) {
                 final module = modules[index];
                 return GestureDetector(
                   onTap: () => _onModuleTapped(module),
-                  child: Column( // Individual tile content
+                  child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Image.asset(module.icon, width: 30, height: 30), // Fixed icon size
+                      Image.asset(module.icon, width: 30, height: 30),
                       const SizedBox(height: 8),
                       Text(
                         module.name,
-                        textAlign: TextAlign.center, // Center align text
+                        textAlign: TextAlign.center,
                       ),
                     ],
                   ),
                 );
               },
             ),
-          ),
+          ],
         ),
-      ],
+      ),
     );
   }
 }
