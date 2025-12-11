@@ -1,0 +1,726 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.qdocs.ssre241123"
+4    android:versionCode="1"
+5    android:versionName="4.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+11-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:6:5-73
+11-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:6:22-70
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:7:5-81
+12-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:7:22-78
+13    <uses-permission
+13-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:8:5-10:36
+14        android:name="android.permission.CALL_PHONE"
+14-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:9:9-53
+15        android:required="false" />
+15-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:10:9-33
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:11:5-80
+16-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:11:22-77
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:12:5-67
+17-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:12:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:13:5-79
+18-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:13:22-76
+19    <uses-permission android:name="android.permission.READ_CALENDAR" />
+19-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:14:5-72
+19-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:14:22-69
+20    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+20-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:15:5-76
+20-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:15:22-73
+21    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+21-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:16:5-75
+21-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:16:22-72
+22    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+22-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:17:5-75
+22-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:17:22-72
+23    <uses-permission android:name="android.permission.READ_MEDIA_FILE" />
+23-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:18:5-74
+23-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:18:22-71
+24    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+24-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:19:5-76
+24-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:19:22-74
+25    <uses-permission android:name="android.permission.CAMERA" />
+25-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:20:5-21:52
+25-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:21:9-49
+26    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+26-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:22:5-75
+26-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:22:22-72
+27    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+27-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:23:5-76
+27-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:23:22-74
+28
+29    <uses-feature
+29-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:24:5-26:36
+30        android:name="android.hardware.telephony"
+30-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:25:9-50
+31        android:required="false" />
+31-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:26:9-33
+32    <uses-feature
+32-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:27:5-29:36
+33        android:name="android.hardware.camera.autofocus"
+33-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:28:9-57
+34        android:required="false" />
+34-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:29:9-33
+35    <uses-feature
+35-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:30:5-32:34
+36        android:name="android.hardware.camera"
+36-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:31:9-47
+37        android:required="true" />
+37-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:32:9-32
+38
+39    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+39-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:24:5-68
+39-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:24:22-65
+40    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+40-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
+40-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:22-79
+41
+42    <permission
+42-->[androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+43        android:name="com.qdocs.ssre241123.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+43-->[androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+44        android:protectionLevel="signature" />
+44-->[androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+45
+46    <uses-permission android:name="com.qdocs.ssre241123.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+46-->[androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+46-->[androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+47
+48    <application
+48-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:34:5-300:19
+49        android:name="com.qdocs.ssre241123.utils.MyApp"
+49-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:35:9-56
+50        android:allowBackup="false"
+50-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:36:9-36
+51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+51-->[androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+52        android:configChanges="orientation|screenSize"
+52-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:37:9-55
+53        android:debuggable="true"
+54        android:exported="true"
+54-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:38:9-32
+55        android:extractNativeLibs="false"
+56        android:hardwareAccelerated="true"
+56-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:39:9-43
+57        android:icon="@drawable/app_icon"
+57-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:40:9-42
+58        android:label="@string/app_name"
+58-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:41:9-41
+59        android:networkSecurityConfig="@xml/network_security_config"
+59-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:47:9-69
+60        android:requestLegacyExternalStorage="true"
+60-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:42:9-52
+61        android:roundIcon="@drawable/app_icon"
+61-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:43:9-47
+62        android:supportsRtl="true"
+62-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:44:9-35
+63        android:testOnly="true"
+64        android:theme="@style/AppTheme"
+64-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:45:9-40
+65        android:usesCleartextTraffic="true" >
+65-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:46:9-44
+66        <activity
+66-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:49:9-51:40
+67            android:name="com.qdocs.ssre241123.students.CbseExaminationActivity"
+67-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:50:13-81
+68            android:exported="false" />
+68-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:51:13-37
+69        `
+70        <activity
+70-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:52:10-54:40
+71            android:name="com.qdocs.ssre241123.students.CbseTimeTableActivity"
+71-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:53:13-79
+72            android:exported="false" />
+72-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:54:13-37
+73        <activity
+73-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:55:9-57:40
+74            android:name="com.qdocs.ssre241123.students.StudentOfflinePayment"
+74-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:56:13-79
+75            android:exported="false" />
+75-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:57:13-37
+76        <activity
+76-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:58:9-60:39
+77            android:name="com.qdocs.ssre241123.students.BehaviourComment"
+77-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:59:13-74
+78            android:exported="true" />
+78-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:60:13-36
+79        <activity
+79-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:61:9-63:39
+80            android:name="com.qdocs.ssre241123.students.StudentVideoTutorialPlay"
+80-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:62:13-82
+81            android:exported="true" />
+81-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:63:13-36
+82        <activity
+82-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:64:9-66:39
+83            android:name="com.qdocs.ssre241123.students.StudentHomeworkNew"
+83-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:65:13-76
+84            android:exported="true" />
+84-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:66:13-36
+85        <activity
+85-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:67:9-69:39
+86            android:name="com.qdocs.ssre241123.students.NewDashboard"
+86-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:68:13-70
+87            android:exported="true" />
+87-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:69:13-36
+88        <activity
+88-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:70:9-72:39
+89            android:name="com.qdocs.ssre241123.students.StudentCoursePerformance"
+89-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:71:13-82
+90            android:exported="true" />
+90-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:72:13-36
+91        <activity
+91-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:73:9-75:39
+92            android:name="com.qdocs.ssre241123.students.StudentUploadDocument"
+92-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:74:13-79
+93            android:exported="true" />
+93-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:75:13-36
+94        <activity
+94-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:76:9-78:39
+95            android:name="com.qdocs.ssre241123.students.StudentDailyAssignment"
+95-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:77:13-80
+96            android:exported="true" />
+96-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:78:13-36
+97        <activity
+97-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:79:9-81:39
+98            android:name="com.qdocs.ssre241123.students.StudentProcessingFees"
+98-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:80:13-79
+99            android:exported="true" />
+99-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:81:13-36
+100        <activity
+100-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:82:9-85:39
+101            android:name="com.qdocs.ssre241123.students.StudentCourseDetail"
+101-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:83:13-77
+102            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection"
+102-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:84:13-90
+103            android:exported="true" />
+103-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:85:13-36
+104        <activity
+104-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:86:9-88:39
+105            android:name="com.qdocs.ssre241123.students.StudentOnlineCourse"
+105-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:87:13-77
+106            android:exported="true" />
+106-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:88:13-36
+107        <activity
+107-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:89:9-92:39
+108            android:name="com.qdocs.ssre241123.students.StudentStartLessonActivity"
+108-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:90:13-84
+109            android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection|uiMode"
+109-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:91:13-97
+110            android:exported="true" />
+110-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:92:13-36
+111        <activity
+111-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:93:9-95:39
+112            android:name="com.qdocs.ssre241123.students.StudentLiveClasses"
+112-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:94:13-76
+113            android:exported="true" />
+113-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:95:13-36
+114        <activity
+114-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:96:9-98:39
+115            android:name="com.qdocs.ssre241123.students.CourseExamResult"
+115-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:97:13-74
+116            android:exported="true" />
+116-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:98:13-36
+117        <activity
+117-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:99:9-101:39
+118            android:name="com.qdocs.ssre241123.students.StudentOfflinePaymentList"
+118-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:100:13-83
+119            android:exported="true" />
+119-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:101:13-36
+120        <activity
+120-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:102:9-104:39
+121            android:name="com.qdocs.ssre241123.students.StudentGmeetLiveClasses"
+121-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:103:13-81
+122            android:exported="true" />
+122-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:104:13-36
+123        <activity
+123-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:105:9-107:39
+124            android:name="com.qdocs.ssre241123.students.StudentBehaviourReport"
+124-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:106:13-80
+125            android:exported="true" />
+125-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:107:13-36
+126        <activity
+126-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:108:9-110:39
+127            android:name="com.qdocs.ssre241123.students.NotificationList"
+127-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:109:13-74
+128            android:exported="true" />
+128-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:110:13-36
+129        <activity
+129-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:111:9-113:39
+130            android:name="com.qdocs.ssre241123.students.AddCourseAssignment"
+130-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:112:13-77
+131            android:exported="true" />
+131-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:113:13-36
+132        <activity
+132-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:114:9-116:39
+133            android:name="com.qdocs.ssre241123.students.OnlineCourseExam"
+133-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:115:13-74
+134            android:exported="true" />
+134-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:116:13-36
+135        <activity
+135-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:117:9-120:39
+136            android:name="com.qdocs.ssre241123.students.StudentOnlineExamQuestionsNew"
+136-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:118:13-87
+137            android:configChanges="orientation|screenSize"
+137-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:119:13-59
+138            android:exported="true" />
+138-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:120:13-36
+139        <activity
+139-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:121:9-123:39
+140            android:name="com.qdocs.ssre241123.students.StudentOnlineExamResult"
+140-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:122:13-81
+141            android:exported="true" />
+141-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:123:13-36
+142        <activity
+142-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:124:9-126:39
+143            android:name="com.qdocs.ssre241123.students.StudentOnlineExam"
+143-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:125:13-75
+144            android:exported="true" />
+144-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:126:13-36
+145        <activity
+145-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:127:9-129:39
+146            android:name="com.qdocs.ssre241123.AboutSchool"
+146-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:128:13-60
+147            android:exported="true" />
+147-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:129:13-36
+148        <activity
+148-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:130:9-132:39
+149            android:name="com.qdocs.ssre241123.students.StudentTimeline"
+149-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:131:13-73
+150            android:exported="true" />
+150-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:132:13-36
+151        <activity
+151-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:133:9-135:39
+152            android:name="com.qdocs.ssre241123.students.StudentAddTimeLine"
+152-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:134:13-76
+153            android:exported="true" />
+153-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:135:13-36
+154        <activity
+154-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:136:9-138:39
+155            android:name="com.qdocs.ssre241123.students.StudentEditTimeLine"
+155-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:137:13-77
+156            android:exported="true" />
+156-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:138:13-36
+157        <activity
+157-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:139:9-141:39
+158            android:name="com.qdocs.ssre241123.students.StudentDocuments"
+158-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:140:13-74
+159            android:exported="true" />
+159-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:141:13-36
+160        <activity
+160-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:142:9-149:20
+161            android:name="com.qdocs.ssre241123.SplashActivity"
+161-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:143:13-63
+162            android:exported="true" >
+162-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:144:13-36
+163            <intent-filter>
+163-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:145:13-148:29
+164                <action android:name="android.intent.action.MAIN" />
+164-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:146:17-69
+164-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:146:25-66
+165
+166                <category android:name="android.intent.category.LAUNCHER" />
+166-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:147:17-77
+166-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:147:27-74
+167            </intent-filter>
+168        </activity>
+169        <activity
+169-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:150:9-152:39
+170            android:name="com.qdocs.ssre241123.Login"
+170-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:151:13-54
+171            android:exported="true" />
+171-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:152:13-36
+172        <activity
+172-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:153:9-155:39
+173            android:name="com.qdocs.ssre241123.students.StudentProfileDetailsNew"
+173-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:154:13-82
+174            android:exported="true" />
+174-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:155:13-36
+175        <activity
+175-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:156:9-158:39
+176            android:name="com.qdocs.ssre241123.students.StudentAddAssignment"
+176-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:157:13-78
+177            android:exported="true" />
+177-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:158:13-36
+178        <activity
+178-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:159:9-161:39
+179            android:name="com.qdocs.ssre241123.students.StudentEditAssignment"
+179-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:160:13-79
+180            android:exported="true" />
+180-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:161:13-36
+181        <activity
+181-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:162:9-164:39
+182            android:name="com.qdocs.ssre241123.students.StudentUploadHomework"
+182-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:163:13-79
+183            android:exported="true" />
+183-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:164:13-36
+184        <activity
+184-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:165:9-167:39
+185            android:name="com.qdocs.ssre241123.ForgotPassword"
+185-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:166:13-63
+186            android:exported="true" />
+186-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:167:13-36
+187        <activity
+187-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:168:9-170:39
+188            android:name="com.qdocs.ssre241123.BaseActivity"
+188-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:169:13-61
+189            android:exported="true" />
+189-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:170:13-36
+190        <activity
+190-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:171:9-173:39
+191            android:name="com.qdocs.ssre241123.students.StudentFees"
+191-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:172:13-69
+192            android:exported="true" />
+192-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:173:13-36
+193        <activity
+193-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:174:9-176:39
+194            android:name="com.qdocs.ssre241123.students.StudentNoticeBoard"
+194-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:175:13-76
+195            android:exported="true" />
+195-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:176:13-36
+196        <activity
+196-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:177:9-179:39
+197            android:name="com.qdocs.ssre241123.students.StudentExaminationList"
+197-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:178:13-80
+198            android:exported="true" />
+198-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:179:13-36
+199        <activity
+199-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:180:9-182:39
+200            android:name="com.qdocs.ssre241123.students.StudentReportCard_ExamListResult"
+200-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:181:13-90
+201            android:exported="true" />
+201-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:182:13-36
+202        <activity
+202-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:183:9-185:39
+203            android:name="com.qdocs.ssre241123.students.StudentSubjectList"
+203-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:184:13-76
+204            android:exported="true" />
+204-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:185:13-36
+205        <activity
+205-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:186:9-188:39
+206            android:name="com.qdocs.ssre241123.students.StudentTeachersList"
+206-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:187:13-77
+207            android:exported="true" />
+207-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:188:13-36
+208        <activity
+208-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:189:9-191:39
+209            android:name="com.qdocs.ssre241123.students.StudentTransportRoutes"
+209-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:190:13-80
+210            android:exported="true" />
+210-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:191:13-36
+211        <activity
+211-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:192:9-194:39
+212            android:name="com.qdocs.ssre241123.students.StudentDownloads"
+212-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:193:13-74
+213            android:exported="true" />
+213-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:194:13-36
+214        <activity
+214-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:195:9-197:39
+215            android:name="com.qdocs.ssre241123.students.StudentAttendance"
+215-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:196:13-75
+216            android:exported="true" />
+216-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:197:13-36
+217        <activity
+217-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:198:9-200:39
+218            android:name="com.qdocs.ssre241123.students.StudentReportCard_ExamList"
+218-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:199:13-84
+219            android:exported="true" />
+219-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:200:13-36
+220        <activity
+220-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:201:9-203:39
+221            android:name="com.qdocs.ssre241123.students.StudentExamSchedule_ExamList"
+221-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:202:13-86
+222            android:exported="true" />
+222-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:203:13-36
+223        <activity
+223-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:204:9-206:39
+224            android:name="com.qdocs.ssre241123.students.StudentExamSchedule"
+224-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:205:13-77
+225            android:exported="true" />
+225-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:206:13-36
+226        <activity
+226-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:207:9-209:39
+227            android:name="com.qdocs.ssre241123.students.StudentVisitorBook"
+227-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:208:13-76
+228            android:exported="true" />
+228-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:209:13-36
+229        <activity
+229-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:210:9-212:39
+230            android:name="com.qdocs.ssre241123.students.StudentHostel"
+230-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:211:13-71
+231            android:exported="true" />
+231-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:212:13-36
+232        <activity
+232-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:213:9-215:39
+233            android:name="com.qdocs.ssre241123.students.StudentLibraryBook"
+233-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:214:13-76
+234            android:exported="true" />
+234-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:215:13-36
+235        <activity
+235-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:216:9-218:39
+236            android:name="com.qdocs.ssre241123.students.StudentClassTimetable"
+236-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:217:13-79
+237            android:exported="true" />
+237-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:218:13-36
+238        <activity
+238-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:219:9-221:39
+239            android:name="com.qdocs.ssre241123.students.StudentSyllabusTimetable"
+239-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:220:13-82
+240            android:exported="true" />
+240-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:221:13-36
+241        <activity
+241-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:222:9-224:39
+242            android:name="com.qdocs.ssre241123.students.StudentSyllabusStatus"
+242-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:223:13-79
+243            android:exported="true" />
+243-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:224:13-36
+244        <activity
+244-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:225:9-227:39
+245            android:name="com.qdocs.ssre241123.students.StudentLibraryBookIssued"
+245-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:226:13-82
+246            android:exported="true" />
+246-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:227:13-36
+247        <activity
+247-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:228:9-230:39
+248            android:name="com.qdocs.ssre241123.students.StudentAppyLeave"
+248-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:229:13-74
+249            android:exported="true" />
+249-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:230:13-36
+250        <activity
+250-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:231:9-233:39
+251            android:name="com.qdocs.ssre241123.students.StudentAddLeave"
+251-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:232:13-73
+252            android:exported="true" />
+252-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:233:13-36
+253        <activity
+253-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:234:9-236:39
+254            android:name="com.qdocs.ssre241123.students.StudentEditLeave"
+254-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:235:13-74
+255            android:exported="true" />
+255-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:236:13-36
+256        <activity
+256-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:237:9-239:39
+257            android:name="com.qdocs.ssre241123.students.StudentSyllabus"
+257-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:238:13-73
+258            android:exported="true" />
+258-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:239:13-36
+259        <activity
+259-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:240:9-242:39
+260            android:name="com.qdocs.ssre241123.students.StudentOnlineQuizResult"
+260-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:241:13-81
+261            android:exported="true" />
+261-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:242:13-36
+262        <activity
+262-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:243:9-245:39
+263            android:name="com.qdocs.ssre241123.students.StudentSyllabuslesson"
+263-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:244:13-79
+264            android:exported="true" />
+264-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:245:13-36
+265        <activity
+265-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:246:9-248:39
+266            android:name="com.qdocs.ssre241123.students.StudentOnlineCourseQuiz"
+266-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:247:13-81
+267            android:exported="true" />
+267-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:248:13-36
+268        <activity
+268-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:249:9-251:39
+269            android:name="com.qdocs.ssre241123.SettingActivity"
+269-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:250:13-64
+270            android:exported="true" />
+270-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:251:13-36
+271        <activity
+271-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:252:9-255:40
+272            android:name="com.qdocs.ssre241123.TakeUrl"
+272-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:253:13-56
+273            android:configChanges="orientation|screenSize"
+273-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:254:13-59
+274            android:exported="false" />
+274-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:255:13-37
+275        <activity
+275-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:256:9-258:39
+276            android:name="com.qdocs.ssre241123.OpenPdf"
+276-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:257:13-56
+277            android:exported="true" />
+277-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:258:13-36
+278        <activity
+278-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:259:9-261:39
+279            android:name="com.qdocs.ssre241123.students.StudentTasks"
+279-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:260:13-70
+280            android:exported="true" />
+280-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:261:13-36
+281        <activity
+281-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:262:9-264:39
+282            android:name="com.qdocs.ssre241123.students.StudentTasksEdit"
+282-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:263:13-74
+283            android:exported="true" />
+283-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:264:13-36
+284        <activity
+284-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:265:9-267:39
+285            android:name="com.qdocs.ssre241123.students.Payment"
+285-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:266:13-65
+286            android:exported="true" />
+286-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:267:13-36
+287        <activity
+287-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:268:9-270:39
+288            android:name="com.qdocs.ssre241123.students.MultiplePayment"
+288-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:269:13-73
+289            android:exported="true" />
+289-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:270:13-36
+290        <activity
+290-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:271:9-273:39
+291            android:name="com.qdocs.ssre241123.students.CoursePayment"
+291-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:272:13-71
+292            android:exported="true" />
+292-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:273:13-36
+293        <activity
+293-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:274:9-278:53
+294            android:name="com.qdocs.ssre241123.students.CourseVideoPlay"
+294-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:275:13-73
+295            android:configChanges="orientation|screenSize"
+295-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:276:13-59
+296            android:exported="false"
+296-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:277:13-37
+297            android:screenOrientation="landscape" />
+297-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:278:13-50
+298        <activity
+298-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:279:9-281:40
+299            android:name="com.qdocs.ssre241123.students.LiveClasses"
+299-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:280:13-69
+300            android:exported="false" />
+300-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:281:13-37
+301
+302        <service
+302-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:283:9-289:19
+303            android:name="com.qdocs.ssre241123.utils.MyFirebaseMessagingService"
+303-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:284:13-81
+304            android:exported="true" >
+304-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:285:13-36
+305            <intent-filter>
+305-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:286:13-288:29
+306                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+306-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:287:17-78
+306-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:287:25-75
+307            </intent-filter>
+308        </service>
+309
+310        <provider
+311            android:name="androidx.core.content.FileProvider"
+311-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:292:13-62
+312            android:authorities="com.qdocs.ssre241123.provider"
+312-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:293:13-60
+313            android:exported="false"
+313-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:294:13-37
+314            android:grantUriPermissions="true" >
+314-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:295:13-47
+315            <meta-data
+315-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:296:13-298:58
+316                android:name="android.support.FILE_PROVIDER_PATHS"
+316-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:297:17-67
+317                android:resource="@xml/provider_paths" />
+317-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:298:17-55
+318        </provider>
+319        <!--
+320             FirebaseMessagingService performs security checks at runtime,
+321             but set to not exported to explicitly avoid allowing another app to call it.
+322        -->
+323        <service
+323-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\8656dc18dcd9060c423ec6bda3e50ff0\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
+324            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+324-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\8656dc18dcd9060c423ec6bda3e50ff0\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
+325            android:exported="false" >
+325-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\8656dc18dcd9060c423ec6bda3e50ff0\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
+326            <intent-filter android:priority="-500" >
+326-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:286:13-288:29
+327                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+327-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:287:17-78
+327-->D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:287:25-75
+328            </intent-filter>
+329        </service>
+330        <service
+330-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:29:9-35:19
+331            android:name="com.google.firebase.components.ComponentDiscoveryService"
+331-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:30:13-84
+332            android:exported="false" >
+332-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:31:13-37
+333            <meta-data
+333-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
+334                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+334-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+335                android:value="com.google.firebase.components.ComponentRegistrar" />
+335-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
+336        </service>
+337
+338        <receiver
+338-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
+339            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+339-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
+340            android:exported="true"
+340-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
+341            android:permission="com.google.android.c2dm.permission.SEND" >
+341-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
+342            <intent-filter>
+342-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
+343                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+343-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
+343-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
+344            </intent-filter>
+345        </receiver>
+346
+347        <provider
+347-->[com.google.firebase:firebase-common:19.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\c842081d3180d50311b2330ad7c58a7a\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+348            android:name="com.google.firebase.provider.FirebaseInitProvider"
+348-->[com.google.firebase:firebase-common:19.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\c842081d3180d50311b2330ad7c58a7a\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+349            android:authorities="com.qdocs.ssre241123.firebaseinitprovider"
+349-->[com.google.firebase:firebase-common:19.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\c842081d3180d50311b2330ad7c58a7a\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+350            android:exported="false"
+350-->[com.google.firebase:firebase-common:19.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\c842081d3180d50311b2330ad7c58a7a\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+351            android:initOrder="100" />
+351-->[com.google.firebase:firebase-common:19.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\c842081d3180d50311b2330ad7c58a7a\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+352
+353        <activity
+353-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\7f5eedd2d8ef017e56e52552851532d3\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+354            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+354-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\7f5eedd2d8ef017e56e52552851532d3\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+355            android:exported="false"
+355-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\7f5eedd2d8ef017e56e52552851532d3\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+356            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+356-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\7f5eedd2d8ef017e56e52552851532d3\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+357
+358        <meta-data
+358-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\510feb710cc0de8cb595351c4649da04\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+359            android:name="com.google.android.gms.version"
+359-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\510feb710cc0de8cb595351c4649da04\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+360            android:value="@integer/google_play_services_version" />
+360-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\510feb710cc0de8cb595351c4649da04\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+361
+362        <provider
+362-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\256e1fcbb47d4f8e70653a38ab1eb02c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+363            android:name="androidx.startup.InitializationProvider"
+363-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\256e1fcbb47d4f8e70653a38ab1eb02c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+364            android:authorities="com.qdocs.ssre241123.androidx-startup"
+364-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\256e1fcbb47d4f8e70653a38ab1eb02c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+365            android:exported="false" >
+365-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\256e1fcbb47d4f8e70653a38ab1eb02c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+366            <meta-data
+366-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\256e1fcbb47d4f8e70653a38ab1eb02c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+367                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+367-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\256e1fcbb47d4f8e70653a38ab1eb02c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+368                android:value="androidx.startup" />
+368-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\256e1fcbb47d4f8e70653a38ab1eb02c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+369            <meta-data
+369-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\bbala\.gradle\caches\8.13\transforms\b515cb24753bebab74d8916856f8ed08\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+370                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+370-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\bbala\.gradle\caches\8.13\transforms\b515cb24753bebab74d8916856f8ed08\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+371                android:value="androidx.startup" />
+371-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\bbala\.gradle\caches\8.13\transforms\b515cb24753bebab74d8916856f8ed08\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+372        </provider>
+373    </application>
+374
+375</manifest>

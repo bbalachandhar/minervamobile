@@ -247,6 +247,12 @@ class _DashboardPageState extends State<DashboardPage> {
       case 'calendar to do list':
         context.push('/calendar_todo');
         break;
+      case 'library':
+        context.push('/library');
+        break;
+      case 'teachers rating':
+        context.push('/teachers_rating');
+        break;
       default:
         // Do nothing for now
         break;

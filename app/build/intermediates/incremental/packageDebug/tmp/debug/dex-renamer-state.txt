@@ -1,12 +1,12 @@
-#Sun Dec 07 22:44:12 IST 2025
-base.0=/Volumes/WORK/FlutterApps/minervamobile/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/Volumes/WORK/FlutterApps/minervamobile/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.2=/Volumes/WORK/FlutterApps/minervamobile/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
-base.3=/Volumes/WORK/FlutterApps/minervamobile/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
-base.4=/Volumes/WORK/FlutterApps/minervamobile/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
-base.5=/Volumes/WORK/FlutterApps/minervamobile/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
-base.6=/Volumes/WORK/FlutterApps/minervamobile/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
-base.7=/Volumes/WORK/FlutterApps/minervamobile/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+#Thu Dec 11 11:44:45 IST 2025
+base.0=D\:\\Mobile\\minervamobile\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=D\:\\Mobile\\minervamobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=D\:\\Mobile\\minervamobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.3=D\:\\Mobile\\minervamobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.4=D\:\\Mobile\\minervamobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.5=D\:\\Mobile\\minervamobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+base.6=D\:\\Mobile\\minervamobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.7=D\:\\Mobile\\minervamobile\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=11/classes.dex

@@ -68,9 +68,14 @@ import 'package:minerva_flutter/features/calendar_todo/domain/usecases/mark_cale
 import 'package:minerva_flutter/features/calendar_todo/domain/usecases/update_calendar_todo_usecase.dart';
 import 'package:minerva_flutter/features/calendar_todo/presentation/bloc/calendar_todo_bloc.dart';
 import 'package:minerva_flutter/features/calendar_todo/presentation/pages/calendar_todo_page.dart';
-
-
-
+import 'package:minerva_flutter/features/library/data/repositories/library_repository_impl.dart';
+import 'package:minerva_flutter/features/library/domain/repositories/library_repository.dart';
+import 'package:minerva_flutter/features/library/domain/usecases/get_available_books_usecase.dart';
+import 'package:minerva_flutter/features/library/domain/usecases/get_issued_books_usecase.dart';
+import 'package:minerva_flutter/features/teachers_rating/data/repositories/teacher_repository.dart';
+import 'package:minerva_flutter/features/library/presentation/bloc/library_bloc.dart';
+import 'package:minerva_flutter/features/library/presentation/pages/library_page.dart';
+import 'package:minerva_flutter/features/teachers_rating/presentation/pages/teachers_rating_page.dart';
 
 
 class App extends StatelessWidget {
@@ -196,6 +201,18 @@ class App extends StatelessWidget {
           return const CalendarTodoPage();
         },
       ),
+      GoRoute(
+        path: '/library',
+        builder: (BuildContext context, GoRouterState state) {
+          return const LibraryPage();
+        },
+      ),
+      GoRoute(
+        path: '/teachers_rating',
+        builder: (BuildContext context, GoRouterState state) {
+          return const TeachersRatingPage();
+        },
+      ),
     ],
   );
 
@@ -242,6 +259,12 @@ class App extends StatelessWidget {
         ),
         RepositoryProvider<CalendarTodoRepository>(
           create: (context) => CalendarTodoRepositoryImpl(sharedPreferences: sharedPreferences),
+        ),
+        RepositoryProvider<LibraryRepository>(
+          create: (context) => LibraryRepositoryImpl(sharedPreferences: sharedPreferences),
+        ),
+        RepositoryProvider<TeacherRepository>(
+          create: (context) => TeacherRepository(),
         ),
       ],
       child: MultiBlocProvider(
@@ -353,6 +376,16 @@ class App extends StatelessWidget {
               ),
             ),
           ),
+          BlocProvider(
+            create: (context) => LibraryBloc(
+              getAvailableBooksUseCase: GetAvailableBooksUseCase(
+                repository: RepositoryProvider.of<LibraryRepository>(context),
+              ),
+              getIssuedBooksUseCase: GetIssuedBooksUseCase(
+                repository: RepositoryProvider.of<LibraryRepository>(context),
+              ),
+            ),
+          ),
         ],
         child: MaterialApp.router(
           routerConfig: _router,
@@ -365,3 +398,4 @@ class App extends StatelessWidget {
     );
   }
 }
+

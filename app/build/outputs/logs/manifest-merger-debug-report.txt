@@ -1,971 +1,971 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:291:9-299:20
+INJECTED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:291:9-299:20
 	android:grantUriPermissions
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:295:13-47
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:295:13-47
 	android:authorities
-		INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:293:13-60
+		INJECTED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:293:13-60
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:294:13-37
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:294:13-37
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:292:13-62
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:292:13-62
 manifest
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:2:1-302:12
-INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:2:1-302:12
-INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:2:1-302:12
-INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:2:1-302:12
-MERGED from [com.google.android.material:material:1.0.0-beta01] /Users/balab/.gradle/caches/transforms-3/795c86524f3a4b92a009042d95bd8589/transformed/material-1.0.0-beta01/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/balab/.gradle/caches/transforms-3/d3fd7daf1d8796e5b1ef531309cda3ef/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/balab/.gradle/caches/transforms-3/c67bbbe7ccdb4f9b411f3078b1185fdb/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/balab/.gradle/caches/transforms-3/b5575a86ee5ccf20f778177f2b298974/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/balab/.gradle/caches/transforms-3/f1deb2830b18183fdb62fca485dd7d42/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/balab/.gradle/caches/transforms-3/6259cd82be5057150a540ae29f1fe06d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/balab/.gradle/caches/transforms-3/4635b1293fcd038a821f23d7e5e152be/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.1] /Users/balab/.gradle/caches/transforms-3/688935edc2804bca14650ce6f8730185/transformed/jetified-threetenabp-1.2.1/AndroidManifest.xml:2:1-9:12
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/balab/.gradle/caches/transforms-3/3962d549bf33776fa9b1f3e2181d50bc/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/balab/.gradle/caches/transforms-3/b5951bc762939d9ff4c9ca7c3fec7356/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.volley:volley:1.2.1] /Users/balab/.gradle/caches/transforms-3/efc2c90d8496fdd8567a23ee88f0f0f8/transformed/jetified-volley-1.2.1/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.firebase:firebase-messaging:20.0.0] /Users/balab/.gradle/caches/transforms-3/1ef4ec9a0b5e9c4f3d7aa1d928ff3626/transformed/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:17:1-37:12
-MERGED from [com.daimajia.swipelayout:library:1.2.0] /Users/balab/.gradle/caches/transforms-3/adc41575a59de5c1fe40b9ff3588586c/transformed/jetified-library-1.2.0/AndroidManifest.xml:2:1-10:12
-MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/balab/.gradle/caches/transforms-3/d1b048dc25493139be3b003fe36556ce/transformed/jetified-glide-4.8.0/AndroidManifest.xml:2:1-12:12
-MERGED from [com.github.blackfizz:eazegraph:1.2.5l] /Users/balab/.gradle/caches/transforms-3/57b31483f120058749aea4265e0c1482/transformed/jetified-eazegraph-1.2.5l/AndroidManifest.xml:2:1-15:12
-MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:17:1-47:12
-MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/balab/.gradle/caches/transforms-3/22eb54344a02b945622b7085177017f1/transformed/jetified-firebase-common-19.0.0/AndroidManifest.xml:2:1-19:12
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/balab/.gradle/caches/transforms-3/3af34c5620435f6e4b07b68d88af60d8/transformed/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/balab/.gradle/caches/transforms-3/606f15818b3c72e09b853f05657cd24a/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/balab/.gradle/caches/transforms-3/62386f5ac3394febff69b6cf170f3eb6/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/balab/.gradle/caches/transforms-3/7d63e9067da7d152e342dccc6db860c5/transformed/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/balab/.gradle/caches/transforms-3/cc7a4f2a5aed36c16f7e5fa43c07d525/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/balab/.gradle/caches/transforms-3/ad4264cdb41315b7bda407fec3d497c3/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.3.6] /Users/balab/.gradle/caches/transforms-3/9886dca957be154f03ef4e21bfd81a26/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.6.0] /Users/balab/.gradle/caches/transforms-3/8c3e379e355151a0d289a07912a2bfee/transformed/jetified-activity-1.6.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0-beta01] /Users/balab/.gradle/caches/transforms-3/f09e4f1f07c458c13c172ea265df8903/transformed/recyclerview-1.0.0-beta01/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/balab/.gradle/caches/transforms-3/732824bd4fb8520640bc3a04c36a717a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/balab/.gradle/caches/transforms-3/59d6975854f8c43b6371112b75f7424d/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/balab/.gradle/caches/transforms-3/a78338e5ea8c3ea9dae992156367056e/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/balab/.gradle/caches/transforms-3/6ea8a986cfedfc5b51e34fad0b49b568/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.transition:transition:1.0.0-beta01] /Users/balab/.gradle/caches/transforms-3/4e5d382cba7db6f047f4850a680cf3cc/transformed/transition-1.0.0-beta01/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/balab/.gradle/caches/transforms-3/cc01fb6a1439d7e0ea95a3b78339838f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0] /Users/balab/.gradle/caches/transforms-3/99cdc0f9a2ffbb83cbd9848c29548681/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/balab/.gradle/caches/transforms-3/e614cae2b84717ef0591b216e8b8279b/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/balab/.gradle/caches/transforms-3/a63aacd334d1ecd3e6602e29886826ab/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/balab/.gradle/caches/transforms-3/51ede2eeacf4ac11b7ae263c5c23e7d0/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.9.0] /Users/balab/.gradle/caches/transforms-3/742f27bbf9705dd852dbc88f8c713df4/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/balab/.gradle/caches/transforms-3/3a095fed74237fa4e5b33125f5d88944/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/balab/.gradle/caches/transforms-3/958f277fcb38fe0c0e70f620efd00af9/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/balab/.gradle/caches/transforms-3/e646683d18ea5c2127f2e27800199407/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/balab/.gradle/caches/transforms-3/d54b83c94a44b4a63548867eb5914b62/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/balab/.gradle/caches/transforms-3/47fe9e2c094bc857cfab7c9cd576d188/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/balab/.gradle/caches/transforms-3/52a4fa00af3595536139b7dcc5ff77c6/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.9.0] /Users/balab/.gradle/caches/transforms-3/2e6153425324545fcd287a2f319ce459/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/balab/.gradle/caches/transforms-3/22da08feca67bb7dd917f53d845de943/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/balab/.gradle/caches/transforms-3/a58757d500b860aff0164021624f88a7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/balab/.gradle/caches/transforms-3/8e07021372a4a118c1605278facccf6c/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/balab/.gradle/caches/transforms-3/5f09fcb074438bb6048f00b0a1946bf5/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/balab/.gradle/caches/transforms-3/6fec49f0f053ee7c2af9be5ebff05621/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/balab/.gradle/caches/transforms-3/f62f03c05502b61e85f9d1da65e35a9b/transformed/jetified-gifdecoder-4.8.0/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/balab/.gradle/caches/transforms-3/8f910939e308c4659af0db79d071496a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/balab/.gradle/caches/transforms-3/7c02ccc131cf75a3329e0adf02d5fbe3/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/balab/.gradle/caches/transforms-3/7b1bf3efbe656f18e50ac61c5e0d5fe1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/balab/.gradle/caches/transforms-3/1d760cf2ef76624890423728f9aa543b/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/balab/.gradle/caches/transforms-3/7e3a412c9cc994c59ff1b222a48836f9/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/balab/.gradle/caches/transforms-3/a317eae34468cc98eb8e2f73c2d65dd4/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/balab/.gradle/caches/transforms-3/b765751846c5de494f25b74491b64049/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/balab/.gradle/caches/transforms-3/3d58b592eaee7810b6ae642dad35bb31/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/balab/.gradle/caches/transforms-3/786dc89f9541acf4b79445b1288c5f13/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/balab/.gradle/caches/transforms-3/1aaf244137f2859c166b7b6ec2c63d68/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:2:1-302:12
+INJECTED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:2:1-302:12
+INJECTED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:2:1-302:12
+INJECTED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:2:1-302:12
+MERGED from [com.google.android.material:material:1.0.0-beta01] C:\Users\bbala\.gradle\caches\8.13\transforms\f73d03ea5a8d0b36ae80fc067d5bcd8f\transformed\material-1.0.0-beta01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\bbala\.gradle\caches\8.13\transforms\81b825b2d855ae1fbc1f450d80c428c2\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\bbala\.gradle\caches\8.13\transforms\41be649732cceece7ee589cac94e93a6\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\bbala\.gradle\caches\8.13\transforms\811d2bd3a2bd0c2ad4b74b12fb8dfac7\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\ed3ac9e9758109efa7ad347b29a13cb8\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\bbala\.gradle\caches\8.13\transforms\1490e2f9dbfae438479b2e0c33623c97\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\bbala\.gradle\caches\8.13\transforms\ad2bc51272ce9f64dcd161d446f88eaa\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.1] C:\Users\bbala\.gradle\caches\8.13\transforms\dd08405a08d948ad73eed7e8b615b955\transformed\jetified-threetenabp-1.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\f53835735d1a584a12cb9b84b799fb58\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\c7eb8aa9f20a5e5c927dd1a1d450617e\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\bbala\.gradle\caches\8.13\transforms\31df3e3fcf56ad9d259c7515cf644e14\transformed\jetified-volley-1.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\8656dc18dcd9060c423ec6bda3e50ff0\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [com.daimajia.swipelayout:library:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\68ac3e9dd3cc85272d103b6d17e307de\transformed\jetified-library-1.2.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\bbala\.gradle\caches\8.13\transforms\497a3668b60a8d0fd9a1230c27c93067\transformed\jetified-glide-4.8.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\bbala\.gradle\caches\8.13\transforms\c1f03b0e4716e9d21ea6caad58a8d27b\transformed\jetified-eazegraph-1.2.5l\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\c842081d3180d50311b2330ad7c58a7a\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\910d80d7d663d5b8bca2b808010a7d6f\transformed\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\7f5eedd2d8ef017e56e52552851532d3\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\28cffed5e602f4a4cae2b29f8fe9001b\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e5f22edf84c50118184f0027d865629d\transformed\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\2899b0611ffcf7a2f6f8a8569c926b00\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\510feb710cc0de8cb595351c4649da04\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\bbala\.gradle\caches\8.13\transforms\39d28efcf1766b38962ba0accedff0c7\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\bbala\.gradle\caches\8.13\transforms\2b0afb12bb605c841d2223e0c27aefd1\transformed\jetified-activity-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0-beta01] C:\Users\bbala\.gradle\caches\8.13\transforms\d42690f0739f5a83495b6508a2da2618\transformed\recyclerview-1.0.0-beta01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\06661d77b4f568f1f99b3368bcab4c4e\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\3cb0f0373f9257014b572d772459eb51\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\6d5be5d86a6c064580535206c22cee85\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\256e1fcbb47d4f8e70653a38ab1eb02c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.transition:transition:1.0.0-beta01] C:\Users\bbala\.gradle\caches\8.13\transforms\26da09d3678eae2056499e9a70cf6afe\transformed\transition-1.0.0-beta01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\c547412d290fa5adba3850b24276bc98\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\5c1d4037be70ddd781da00eaccf093dd\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\96586953f43a1f57ef59775335e5ce2c\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\bbala\.gradle\caches\8.13\transforms\ce1870a3850c137a3501a8e13419c6f9\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\bbala\.gradle\caches\8.13\transforms\108def996525df726de460eb8366cf9c\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\481c7d0ea8714805cc9ba74d914cc99a\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\4cb96fd879db4fc888fa5e6b7817f024\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\2c6cfb3056366ffe61ca5cb633191a62\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\6964e7fb149e3c5876b7027c4e445f4c\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\56d690514ae99572e7d1ffffa734a622\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e3fc3eca1a91205a7426951eddb73e4a\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e81864011ac25778cddc8b767eb5f3e3\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\4c60127a4c1fc9a51ea093157d2537b3\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\bbala\.gradle\caches\8.13\transforms\b515cb24753bebab74d8916856f8ed08\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\bbala\.gradle\caches\8.13\transforms\76854e8b48836b06b6f34fc27ec3018d\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\bd6dcd0a85bdd9e51758156cd97b7c1a\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\bbala\.gradle\caches\8.13\transforms\6f167b00711799b41837eb669c484f22\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\bbala\.gradle\caches\8.13\transforms\1fe0ec07ac7faec4e543c42bcea408b4\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\bbala\.gradle\caches\8.13\transforms\41019ba6543dd15bad489ab787783d81\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\4c3d70e51dfe3b17937392e9b1451cf4\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\7b41f5abaea65744c206cc57bac4c885\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\bbala\.gradle\caches\8.13\transforms\cc6afb2bca707cfc306918279b095250\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\bbala\.gradle\caches\8.13\transforms\313cffd0835928cdeea58a00645e24cb\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\205cdfce341ddd2de70df82ffdd49de1\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\205b737dc10fc80b6d184b3b20fce9f1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\cc7709268c6d24954dbef34b9a4b82fd\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\b6195618107ed5e28255d35714dc62b4\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\bbala\.gradle\caches\8.13\transforms\ae638c3e8ac8482a81cdea35b84365e6\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 	package
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:4:5-35
-		INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:4:5-35
+		INJECTED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml
+		INJECTED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml
+		INJECTED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.WRITE_CALENDAR
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:6:5-73
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:6:5-73
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:6:22-70
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:6:22-70
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:7:5-81
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:7:22-78
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:7:22-78
 uses-permission#android.permission.CALL_PHONE
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:8:5-10:36
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:8:5-10:36
 	android:required
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:10:9-33
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:10:9-33
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:9:9-53
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:9:9-53
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:11:5-80
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:11:22-77
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:11:22-77
 uses-permission#android.permission.INTERNET
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:12:5-67
-MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:23:5-67
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:12:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:12:22-64
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:12:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:13:5-79
-MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:22:5-79
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:13:22-76
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:13:22-76
 uses-permission#android.permission.READ_CALENDAR
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:14:5-72
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:14:5-72
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:14:22-69
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:14:22-69
 uses-permission#android.permission.READ_MEDIA_IMAGES
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:15:5-76
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:15:5-76
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:15:22-73
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:15:22-73
 uses-permission#android.permission.READ_MEDIA_AUDIO
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:16:5-75
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:16:5-75
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:16:22-72
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:16:22-72
 uses-permission#android.permission.READ_MEDIA_VIDEO
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:17:5-75
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:17:5-75
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:17:22-72
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:17:22-72
 uses-permission#android.permission.READ_MEDIA_FILE
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:18:5-74
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:18:5-74
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:18:22-71
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:18:22-71
 uses-permission#android.permission.POST_NOTIFICATIONS
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:19:5-76
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:19:5-76
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:19:22-74
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:19:22-74
 uses-permission#android.permission.CAMERA
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:20:5-21:52
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:20:5-21:52
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:21:9-49
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:21:9-49
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:22:5-75
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:22:5-75
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:22:22-72
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:22:22-72
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:23:5-76
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:23:5-76
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:23:22-74
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:23:22-74
 uses-feature#android.hardware.telephony
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:24:5-26:36
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:24:5-26:36
 	android:required
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:26:9-33
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:26:9-33
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:25:9-50
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:25:9-50
 uses-feature#android.hardware.camera.autofocus
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:27:5-29:36
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:27:5-29:36
 	android:required
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:29:9-33
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:29:9-33
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:28:9-57
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:28:9-57
 uses-feature#android.hardware.camera
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:30:5-32:34
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:30:5-32:34
 	android:required
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:32:9-32
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:32:9-32
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:31:9-47
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:31:9-47
 application
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:34:5-300:19
-INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:34:5-300:19
-MERGED from [com.google.android.material:material:1.0.0-beta01] /Users/balab/.gradle/caches/transforms-3/795c86524f3a4b92a009042d95bd8589/transformed/material-1.0.0-beta01/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.0.0-beta01] /Users/balab/.gradle/caches/transforms-3/795c86524f3a4b92a009042d95bd8589/transformed/material-1.0.0-beta01/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/balab/.gradle/caches/transforms-3/d3fd7daf1d8796e5b1ef531309cda3ef/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/balab/.gradle/caches/transforms-3/d3fd7daf1d8796e5b1ef531309cda3ef/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
-MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.1] /Users/balab/.gradle/caches/transforms-3/688935edc2804bca14650ce6f8730185/transformed/jetified-threetenabp-1.2.1/AndroidManifest.xml:7:5-20
-MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.1] /Users/balab/.gradle/caches/transforms-3/688935edc2804bca14650ce6f8730185/transformed/jetified-threetenabp-1.2.1/AndroidManifest.xml:7:5-20
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/balab/.gradle/caches/transforms-3/3962d549bf33776fa9b1f3e2181d50bc/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/balab/.gradle/caches/transforms-3/3962d549bf33776fa9b1f3e2181d50bc/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-messaging:20.0.0] /Users/balab/.gradle/caches/transforms-3/1ef4ec9a0b5e9c4f3d7aa1d928ff3626/transformed/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-messaging:20.0.0] /Users/balab/.gradle/caches/transforms-3/1ef4ec9a0b5e9c4f3d7aa1d928ff3626/transformed/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:22:5-35:19
-MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/balab/.gradle/caches/transforms-3/d1b048dc25493139be3b003fe36556ce/transformed/jetified-glide-4.8.0/AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/balab/.gradle/caches/transforms-3/d1b048dc25493139be3b003fe36556ce/transformed/jetified-glide-4.8.0/AndroidManifest.xml:10:5-20
-MERGED from [com.github.blackfizz:eazegraph:1.2.5l] /Users/balab/.gradle/caches/transforms-3/57b31483f120058749aea4265e0c1482/transformed/jetified-eazegraph-1.2.5l/AndroidManifest.xml:12:5-13:19
-MERGED from [com.github.blackfizz:eazegraph:1.2.5l] /Users/balab/.gradle/caches/transforms-3/57b31483f120058749aea4265e0c1482/transformed/jetified-eazegraph-1.2.5l/AndroidManifest.xml:12:5-13:19
-MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:28:5-45:19
-MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:28:5-45:19
-MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/balab/.gradle/caches/transforms-3/22eb54344a02b945622b7085177017f1/transformed/jetified-firebase-common-19.0.0/AndroidManifest.xml:11:5-17:19
-MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/balab/.gradle/caches/transforms-3/22eb54344a02b945622b7085177017f1/transformed/jetified-firebase-common-19.0.0/AndroidManifest.xml:11:5-17:19
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/balab/.gradle/caches/transforms-3/3af34c5620435f6e4b07b68d88af60d8/transformed/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/balab/.gradle/caches/transforms-3/3af34c5620435f6e4b07b68d88af60d8/transformed/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/balab/.gradle/caches/transforms-3/606f15818b3c72e09b853f05657cd24a/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/balab/.gradle/caches/transforms-3/606f15818b3c72e09b853f05657cd24a/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/balab/.gradle/caches/transforms-3/62386f5ac3394febff69b6cf170f3eb6/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/balab/.gradle/caches/transforms-3/62386f5ac3394febff69b6cf170f3eb6/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/balab/.gradle/caches/transforms-3/7d63e9067da7d152e342dccc6db860c5/transformed/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/balab/.gradle/caches/transforms-3/7d63e9067da7d152e342dccc6db860c5/transformed/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/balab/.gradle/caches/transforms-3/cc7a4f2a5aed36c16f7e5fa43c07d525/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/balab/.gradle/caches/transforms-3/cc7a4f2a5aed36c16f7e5fa43c07d525/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/balab/.gradle/caches/transforms-3/ad4264cdb41315b7bda407fec3d497c3/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/balab/.gradle/caches/transforms-3/ad4264cdb41315b7bda407fec3d497c3/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/balab/.gradle/caches/transforms-3/6ea8a986cfedfc5b51e34fad0b49b568/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/balab/.gradle/caches/transforms-3/6ea8a986cfedfc5b51e34fad0b49b568/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.9.0] /Users/balab/.gradle/caches/transforms-3/2e6153425324545fcd287a2f319ce459/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.9.0] /Users/balab/.gradle/caches/transforms-3/2e6153425324545fcd287a2f319ce459/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/balab/.gradle/caches/transforms-3/a58757d500b860aff0164021624f88a7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/balab/.gradle/caches/transforms-3/a58757d500b860aff0164021624f88a7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/balab/.gradle/caches/transforms-3/6fec49f0f053ee7c2af9be5ebff05621/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/balab/.gradle/caches/transforms-3/6fec49f0f053ee7c2af9be5ebff05621/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/balab/.gradle/caches/transforms-3/f62f03c05502b61e85f9d1da65e35a9b/transformed/jetified-gifdecoder-4.8.0/AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/balab/.gradle/caches/transforms-3/f62f03c05502b61e85f9d1da65e35a9b/transformed/jetified-gifdecoder-4.8.0/AndroidManifest.xml:9:5-20
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/balab/.gradle/caches/transforms-3/8f910939e308c4659af0db79d071496a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/balab/.gradle/caches/transforms-3/8f910939e308c4659af0db79d071496a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:34:5-300:19
+INJECTED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:34:5-300:19
+MERGED from [com.google.android.material:material:1.0.0-beta01] C:\Users\bbala\.gradle\caches\8.13\transforms\f73d03ea5a8d0b36ae80fc067d5bcd8f\transformed\material-1.0.0-beta01\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0-beta01] C:\Users\bbala\.gradle\caches\8.13\transforms\f73d03ea5a8d0b36ae80fc067d5bcd8f\transformed\material-1.0.0-beta01\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\bbala\.gradle\caches\8.13\transforms\81b825b2d855ae1fbc1f450d80c428c2\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\bbala\.gradle\caches\8.13\transforms\81b825b2d855ae1fbc1f450d80c428c2\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.1] C:\Users\bbala\.gradle\caches\8.13\transforms\dd08405a08d948ad73eed7e8b615b955\transformed\jetified-threetenabp-1.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.1] C:\Users\bbala\.gradle\caches\8.13\transforms\dd08405a08d948ad73eed7e8b615b955\transformed\jetified-threetenabp-1.2.1\AndroidManifest.xml:7:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\f53835735d1a584a12cb9b84b799fb58\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\f53835735d1a584a12cb9b84b799fb58\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\8656dc18dcd9060c423ec6bda3e50ff0\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\8656dc18dcd9060c423ec6bda3e50ff0\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\bbala\.gradle\caches\8.13\transforms\497a3668b60a8d0fd9a1230c27c93067\transformed\jetified-glide-4.8.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\bbala\.gradle\caches\8.13\transforms\497a3668b60a8d0fd9a1230c27c93067\transformed\jetified-glide-4.8.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\bbala\.gradle\caches\8.13\transforms\c1f03b0e4716e9d21ea6caad58a8d27b\transformed\jetified-eazegraph-1.2.5l\AndroidManifest.xml:12:5-13:19
+MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\bbala\.gradle\caches\8.13\transforms\c1f03b0e4716e9d21ea6caad58a8d27b\transformed\jetified-eazegraph-1.2.5l\AndroidManifest.xml:12:5-13:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\c842081d3180d50311b2330ad7c58a7a\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\c842081d3180d50311b2330ad7c58a7a\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\910d80d7d663d5b8bca2b808010a7d6f\transformed\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\910d80d7d663d5b8bca2b808010a7d6f\transformed\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\7f5eedd2d8ef017e56e52552851532d3\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\7f5eedd2d8ef017e56e52552851532d3\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\28cffed5e602f4a4cae2b29f8fe9001b\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\28cffed5e602f4a4cae2b29f8fe9001b\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e5f22edf84c50118184f0027d865629d\transformed\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e5f22edf84c50118184f0027d865629d\transformed\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\2899b0611ffcf7a2f6f8a8569c926b00\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\2899b0611ffcf7a2f6f8a8569c926b00\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\510feb710cc0de8cb595351c4649da04\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\510feb710cc0de8cb595351c4649da04\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\256e1fcbb47d4f8e70653a38ab1eb02c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\256e1fcbb47d4f8e70653a38ab1eb02c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\bbala\.gradle\caches\8.13\transforms\b515cb24753bebab74d8916856f8ed08\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\bbala\.gradle\caches\8.13\transforms\b515cb24753bebab74d8916856f8ed08\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\bbala\.gradle\caches\8.13\transforms\6f167b00711799b41837eb669c484f22\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\bbala\.gradle\caches\8.13\transforms\6f167b00711799b41837eb669c484f22\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\bbala\.gradle\caches\8.13\transforms\1fe0ec07ac7faec4e543c42bcea408b4\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\bbala\.gradle\caches\8.13\transforms\1fe0ec07ac7faec4e543c42bcea408b4\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\bbala\.gradle\caches\8.13\transforms\41019ba6543dd15bad489ab787783d81\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\bbala\.gradle\caches\8.13\transforms\41019ba6543dd15bad489ab787783d81\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml
+		INJECTED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml
 	android:requestLegacyExternalStorage
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:42:9-52
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:42:9-52
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:38:9-32
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:38:9-32
 	android:roundIcon
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:43:9-47
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:43:9-47
 	android:configChanges
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:37:9-55
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:37:9-55
 	android:icon
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:40:9-42
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:40:9-42
 	android:networkSecurityConfig
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:47:9-69
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:47:9-69
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.9.0] /Users/balab/.gradle/caches/transforms-3/2e6153425324545fcd287a2f319ce459/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:44:9-35
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:44:9-35
 	android:label
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:41:9-41
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:41:9-41
 	android:hardwareAccelerated
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:39:9-43
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:39:9-43
 	tools:targetApi
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:48:9-29
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:48:9-29
 	android:allowBackup
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:36:9-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:36:9-36
 	android:theme
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:45:9-40
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:45:9-40
 	android:usesCleartextTraffic
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:46:9-44
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:46:9-44
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:35:9-56
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:35:9-56
 activity#com.qdocs.ssre241123.students.CbseExaminationActivity
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:49:9-51:40
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:49:9-51:40
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:51:13-37
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:51:13-37
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:50:13-81
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:50:13-81
 activity#com.qdocs.ssre241123.students.CbseTimeTableActivity
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:52:10-54:40
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:52:10-54:40
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:54:13-37
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:54:13-37
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:53:13-79
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:53:13-79
 activity#com.qdocs.ssre241123.students.StudentOfflinePayment
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:55:9-57:40
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:55:9-57:40
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:57:13-37
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:57:13-37
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:56:13-79
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:56:13-79
 activity#com.qdocs.ssre241123.students.BehaviourComment
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:58:9-60:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:58:9-60:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:60:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:60:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:59:13-74
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:59:13-74
 activity#com.qdocs.ssre241123.students.StudentVideoTutorialPlay
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:61:9-63:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:61:9-63:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:63:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:63:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:62:13-82
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:62:13-82
 activity#com.qdocs.ssre241123.students.StudentHomeworkNew
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:64:9-66:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:64:9-66:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:66:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:66:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:65:13-76
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:65:13-76
 activity#com.qdocs.ssre241123.students.NewDashboard
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:67:9-69:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:67:9-69:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:69:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:69:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:68:13-70
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:68:13-70
 activity#com.qdocs.ssre241123.students.StudentCoursePerformance
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:70:9-72:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:70:9-72:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:72:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:72:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:71:13-82
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:71:13-82
 activity#com.qdocs.ssre241123.students.StudentUploadDocument
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:73:9-75:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:73:9-75:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:75:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:75:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:74:13-79
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:74:13-79
 activity#com.qdocs.ssre241123.students.StudentDailyAssignment
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:76:9-78:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:76:9-78:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:78:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:78:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:77:13-80
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:77:13-80
 activity#com.qdocs.ssre241123.students.StudentProcessingFees
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:79:9-81:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:79:9-81:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:81:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:81:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:80:13-79
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:80:13-79
 activity#com.qdocs.ssre241123.students.StudentCourseDetail
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:82:9-85:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:82:9-85:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:85:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:85:13-36
 	android:configChanges
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:84:13-90
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:84:13-90
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:83:13-77
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:83:13-77
 activity#com.qdocs.ssre241123.students.StudentOnlineCourse
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:86:9-88:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:86:9-88:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:88:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:88:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:87:13-77
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:87:13-77
 activity#com.qdocs.ssre241123.students.StudentStartLessonActivity
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:89:9-92:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:89:9-92:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:92:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:92:13-36
 	android:configChanges
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:91:13-97
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:91:13-97
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:90:13-84
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:90:13-84
 activity#com.qdocs.ssre241123.students.StudentLiveClasses
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:93:9-95:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:93:9-95:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:95:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:95:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:94:13-76
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:94:13-76
 activity#com.qdocs.ssre241123.students.CourseExamResult
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:96:9-98:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:96:9-98:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:98:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:98:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:97:13-74
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:97:13-74
 activity#com.qdocs.ssre241123.students.StudentOfflinePaymentList
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:99:9-101:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:99:9-101:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:101:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:101:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:100:13-83
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:100:13-83
 activity#com.qdocs.ssre241123.students.StudentGmeetLiveClasses
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:102:9-104:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:102:9-104:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:104:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:104:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:103:13-81
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:103:13-81
 activity#com.qdocs.ssre241123.students.StudentBehaviourReport
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:105:9-107:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:105:9-107:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:107:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:107:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:106:13-80
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:106:13-80
 activity#com.qdocs.ssre241123.students.NotificationList
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:108:9-110:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:108:9-110:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:110:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:110:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:109:13-74
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:109:13-74
 activity#com.qdocs.ssre241123.students.AddCourseAssignment
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:111:9-113:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:111:9-113:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:113:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:113:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:112:13-77
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:112:13-77
 activity#com.qdocs.ssre241123.students.OnlineCourseExam
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:114:9-116:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:114:9-116:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:116:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:116:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:115:13-74
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:115:13-74
 activity#com.qdocs.ssre241123.students.StudentOnlineExamQuestionsNew
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:117:9-120:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:117:9-120:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:120:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:120:13-36
 	android:configChanges
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:119:13-59
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:119:13-59
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:118:13-87
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:118:13-87
 activity#com.qdocs.ssre241123.students.StudentOnlineExamResult
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:121:9-123:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:121:9-123:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:123:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:123:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:122:13-81
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:122:13-81
 activity#com.qdocs.ssre241123.students.StudentOnlineExam
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:124:9-126:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:124:9-126:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:126:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:126:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:125:13-75
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:125:13-75
 activity#com.qdocs.ssre241123.AboutSchool
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:127:9-129:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:127:9-129:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:129:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:129:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:128:13-60
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:128:13-60
 activity#com.qdocs.ssre241123.students.StudentTimeline
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:130:9-132:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:130:9-132:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:132:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:132:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:131:13-73
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:131:13-73
 activity#com.qdocs.ssre241123.students.StudentAddTimeLine
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:133:9-135:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:133:9-135:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:135:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:135:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:134:13-76
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:134:13-76
 activity#com.qdocs.ssre241123.students.StudentEditTimeLine
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:136:9-138:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:136:9-138:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:138:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:138:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:137:13-77
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:137:13-77
 activity#com.qdocs.ssre241123.students.StudentDocuments
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:139:9-141:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:139:9-141:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:141:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:141:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:140:13-74
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:140:13-74
 activity#com.qdocs.ssre241123.SplashActivity
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:142:9-149:20
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:142:9-149:20
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:144:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:144:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:143:13-63
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:143:13-63
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:145:13-148:29
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:145:13-148:29
 action#android.intent.action.MAIN
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:146:17-69
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:146:17-69
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:146:25-66
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:146:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:147:17-77
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:147:17-77
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:147:27-74
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:147:27-74
 activity#com.qdocs.ssre241123.Login
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:150:9-152:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:150:9-152:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:152:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:152:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:151:13-54
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:151:13-54
 activity#com.qdocs.ssre241123.students.StudentProfileDetailsNew
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:153:9-155:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:153:9-155:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:155:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:155:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:154:13-82
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:154:13-82
 activity#com.qdocs.ssre241123.students.StudentAddAssignment
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:156:9-158:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:156:9-158:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:158:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:158:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:157:13-78
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:157:13-78
 activity#com.qdocs.ssre241123.students.StudentEditAssignment
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:159:9-161:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:159:9-161:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:161:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:161:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:160:13-79
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:160:13-79
 activity#com.qdocs.ssre241123.students.StudentUploadHomework
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:162:9-164:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:162:9-164:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:164:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:164:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:163:13-79
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:163:13-79
 activity#com.qdocs.ssre241123.ForgotPassword
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:165:9-167:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:165:9-167:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:167:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:167:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:166:13-63
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:166:13-63
 activity#com.qdocs.ssre241123.BaseActivity
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:168:9-170:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:168:9-170:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:170:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:170:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:169:13-61
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:169:13-61
 activity#com.qdocs.ssre241123.students.StudentFees
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:171:9-173:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:171:9-173:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:173:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:173:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:172:13-69
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:172:13-69
 activity#com.qdocs.ssre241123.students.StudentNoticeBoard
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:174:9-176:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:174:9-176:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:176:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:176:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:175:13-76
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:175:13-76
 activity#com.qdocs.ssre241123.students.StudentExaminationList
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:177:9-179:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:177:9-179:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:179:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:179:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:178:13-80
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:178:13-80
 activity#com.qdocs.ssre241123.students.StudentReportCard_ExamListResult
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:180:9-182:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:180:9-182:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:182:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:182:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:181:13-90
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:181:13-90
 activity#com.qdocs.ssre241123.students.StudentSubjectList
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:183:9-185:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:183:9-185:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:185:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:185:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:184:13-76
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:184:13-76
 activity#com.qdocs.ssre241123.students.StudentTeachersList
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:186:9-188:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:186:9-188:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:188:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:188:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:187:13-77
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:187:13-77
 activity#com.qdocs.ssre241123.students.StudentTransportRoutes
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:189:9-191:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:189:9-191:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:191:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:191:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:190:13-80
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:190:13-80
 activity#com.qdocs.ssre241123.students.StudentDownloads
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:192:9-194:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:192:9-194:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:194:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:194:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:193:13-74
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:193:13-74
 activity#com.qdocs.ssre241123.students.StudentAttendance
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:195:9-197:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:195:9-197:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:197:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:197:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:196:13-75
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:196:13-75
 activity#com.qdocs.ssre241123.students.StudentReportCard_ExamList
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:198:9-200:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:198:9-200:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:200:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:200:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:199:13-84
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:199:13-84
 activity#com.qdocs.ssre241123.students.StudentExamSchedule_ExamList
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:201:9-203:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:201:9-203:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:203:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:203:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:202:13-86
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:202:13-86
 activity#com.qdocs.ssre241123.students.StudentExamSchedule
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:204:9-206:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:204:9-206:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:206:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:206:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:205:13-77
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:205:13-77
 activity#com.qdocs.ssre241123.students.StudentVisitorBook
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:207:9-209:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:207:9-209:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:209:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:209:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:208:13-76
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:208:13-76
 activity#com.qdocs.ssre241123.students.StudentHostel
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:210:9-212:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:210:9-212:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:212:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:212:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:211:13-71
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:211:13-71
 activity#com.qdocs.ssre241123.students.StudentLibraryBook
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:213:9-215:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:213:9-215:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:215:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:215:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:214:13-76
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:214:13-76
 activity#com.qdocs.ssre241123.students.StudentClassTimetable
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:216:9-218:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:216:9-218:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:218:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:218:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:217:13-79
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:217:13-79
 activity#com.qdocs.ssre241123.students.StudentSyllabusTimetable
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:219:9-221:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:219:9-221:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:221:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:221:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:220:13-82
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:220:13-82
 activity#com.qdocs.ssre241123.students.StudentSyllabusStatus
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:222:9-224:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:222:9-224:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:224:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:224:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:223:13-79
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:223:13-79
 activity#com.qdocs.ssre241123.students.StudentLibraryBookIssued
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:225:9-227:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:225:9-227:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:227:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:227:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:226:13-82
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:226:13-82
 activity#com.qdocs.ssre241123.students.StudentAppyLeave
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:228:9-230:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:228:9-230:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:230:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:230:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:229:13-74
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:229:13-74
 activity#com.qdocs.ssre241123.students.StudentAddLeave
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:231:9-233:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:231:9-233:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:233:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:233:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:232:13-73
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:232:13-73
 activity#com.qdocs.ssre241123.students.StudentEditLeave
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:234:9-236:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:234:9-236:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:236:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:236:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:235:13-74
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:235:13-74
 activity#com.qdocs.ssre241123.students.StudentSyllabus
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:237:9-239:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:237:9-239:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:239:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:239:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:238:13-73
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:238:13-73
 activity#com.qdocs.ssre241123.students.StudentOnlineQuizResult
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:240:9-242:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:240:9-242:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:242:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:242:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:241:13-81
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:241:13-81
 activity#com.qdocs.ssre241123.students.StudentSyllabuslesson
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:243:9-245:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:243:9-245:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:245:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:245:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:244:13-79
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:244:13-79
 activity#com.qdocs.ssre241123.students.StudentOnlineCourseQuiz
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:246:9-248:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:246:9-248:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:248:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:248:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:247:13-81
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:247:13-81
 activity#com.qdocs.ssre241123.SettingActivity
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:249:9-251:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:249:9-251:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:251:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:251:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:250:13-64
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:250:13-64
 activity#com.qdocs.ssre241123.TakeUrl
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:252:9-255:40
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:252:9-255:40
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:255:13-37
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:255:13-37
 	android:configChanges
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:254:13-59
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:254:13-59
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:253:13-56
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:253:13-56
 activity#com.qdocs.ssre241123.OpenPdf
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:256:9-258:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:256:9-258:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:258:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:258:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:257:13-56
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:257:13-56
 activity#com.qdocs.ssre241123.students.StudentTasks
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:259:9-261:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:259:9-261:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:261:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:261:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:260:13-70
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:260:13-70
 activity#com.qdocs.ssre241123.students.StudentTasksEdit
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:262:9-264:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:262:9-264:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:264:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:264:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:263:13-74
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:263:13-74
 activity#com.qdocs.ssre241123.students.Payment
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:265:9-267:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:265:9-267:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:267:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:267:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:266:13-65
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:266:13-65
 activity#com.qdocs.ssre241123.students.MultiplePayment
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:268:9-270:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:268:9-270:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:270:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:270:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:269:13-73
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:269:13-73
 activity#com.qdocs.ssre241123.students.CoursePayment
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:271:9-273:39
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:271:9-273:39
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:273:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:273:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:272:13-71
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:272:13-71
 activity#com.qdocs.ssre241123.students.CourseVideoPlay
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:274:9-278:53
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:274:9-278:53
 	android:screenOrientation
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:278:13-50
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:278:13-50
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:277:13-37
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:277:13-37
 	android:configChanges
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:276:13-59
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:276:13-59
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:275:13-73
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:275:13-73
 activity#com.qdocs.ssre241123.students.LiveClasses
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:279:9-281:40
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:279:9-281:40
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:281:13-37
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:281:13-37
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:280:13-69
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:280:13-69
 service#com.qdocs.ssre241123.utils.MyFirebaseMessagingService
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:283:9-289:19
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:283:9-289:19
 	android:exported
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:285:13-36
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:285:13-36
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:284:13-81
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:284:13-81
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:286:13-288:29
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:286:13-288:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:287:17-78
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:287:17-78
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:287:25-75
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:287:25-75
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:296:13-298:58
+ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:296:13-298:58
 	android:resource
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:298:17-55
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:298:17-55
 	android:name
-		ADDED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml:297:17-67
+		ADDED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml:297:17-67
 uses-sdk
-INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml
-INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.0.0-beta01] /Users/balab/.gradle/caches/transforms-3/795c86524f3a4b92a009042d95bd8589/transformed/material-1.0.0-beta01/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.0.0-beta01] /Users/balab/.gradle/caches/transforms-3/795c86524f3a4b92a009042d95bd8589/transformed/material-1.0.0-beta01/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/balab/.gradle/caches/transforms-3/d3fd7daf1d8796e5b1ef531309cda3ef/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/balab/.gradle/caches/transforms-3/d3fd7daf1d8796e5b1ef531309cda3ef/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/balab/.gradle/caches/transforms-3/c67bbbe7ccdb4f9b411f3078b1185fdb/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/balab/.gradle/caches/transforms-3/c67bbbe7ccdb4f9b411f3078b1185fdb/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/balab/.gradle/caches/transforms-3/b5575a86ee5ccf20f778177f2b298974/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/balab/.gradle/caches/transforms-3/b5575a86ee5ccf20f778177f2b298974/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/balab/.gradle/caches/transforms-3/f1deb2830b18183fdb62fca485dd7d42/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/balab/.gradle/caches/transforms-3/f1deb2830b18183fdb62fca485dd7d42/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/balab/.gradle/caches/transforms-3/6259cd82be5057150a540ae29f1fe06d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/balab/.gradle/caches/transforms-3/6259cd82be5057150a540ae29f1fe06d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/balab/.gradle/caches/transforms-3/4635b1293fcd038a821f23d7e5e152be/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/balab/.gradle/caches/transforms-3/4635b1293fcd038a821f23d7e5e152be/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.1] /Users/balab/.gradle/caches/transforms-3/688935edc2804bca14650ce6f8730185/transformed/jetified-threetenabp-1.2.1/AndroidManifest.xml:5:5-44
-MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.1] /Users/balab/.gradle/caches/transforms-3/688935edc2804bca14650ce6f8730185/transformed/jetified-threetenabp-1.2.1/AndroidManifest.xml:5:5-44
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/balab/.gradle/caches/transforms-3/3962d549bf33776fa9b1f3e2181d50bc/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/balab/.gradle/caches/transforms-3/3962d549bf33776fa9b1f3e2181d50bc/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/balab/.gradle/caches/transforms-3/b5951bc762939d9ff4c9ca7c3fec7356/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/balab/.gradle/caches/transforms-3/b5951bc762939d9ff4c9ca7c3fec7356/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.volley:volley:1.2.1] /Users/balab/.gradle/caches/transforms-3/efc2c90d8496fdd8567a23ee88f0f0f8/transformed/jetified-volley-1.2.1/AndroidManifest.xml:5:5-43
-MERGED from [com.android.volley:volley:1.2.1] /Users/balab/.gradle/caches/transforms-3/efc2c90d8496fdd8567a23ee88f0f0f8/transformed/jetified-volley-1.2.1/AndroidManifest.xml:5:5-43
-MERGED from [com.google.firebase:firebase-messaging:20.0.0] /Users/balab/.gradle/caches/transforms-3/1ef4ec9a0b5e9c4f3d7aa1d928ff3626/transformed/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:20.0.0] /Users/balab/.gradle/caches/transforms-3/1ef4ec9a0b5e9c4f3d7aa1d928ff3626/transformed/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.daimajia.swipelayout:library:1.2.0] /Users/balab/.gradle/caches/transforms-3/adc41575a59de5c1fe40b9ff3588586c/transformed/jetified-library-1.2.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.daimajia.swipelayout:library:1.2.0] /Users/balab/.gradle/caches/transforms-3/adc41575a59de5c1fe40b9ff3588586c/transformed/jetified-library-1.2.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/balab/.gradle/caches/transforms-3/d1b048dc25493139be3b003fe36556ce/transformed/jetified-glide-4.8.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/balab/.gradle/caches/transforms-3/d1b048dc25493139be3b003fe36556ce/transformed/jetified-glide-4.8.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.blackfizz:eazegraph:1.2.5l] /Users/balab/.gradle/caches/transforms-3/57b31483f120058749aea4265e0c1482/transformed/jetified-eazegraph-1.2.5l/AndroidManifest.xml:8:5-10:41
-MERGED from [com.github.blackfizz:eazegraph:1.2.5l] /Users/balab/.gradle/caches/transforms-3/57b31483f120058749aea4265e0c1482/transformed/jetified-eazegraph-1.2.5l/AndroidManifest.xml:8:5-10:41
-MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/balab/.gradle/caches/transforms-3/22eb54344a02b945622b7085177017f1/transformed/jetified-firebase-common-19.0.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/balab/.gradle/caches/transforms-3/22eb54344a02b945622b7085177017f1/transformed/jetified-firebase-common-19.0.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/balab/.gradle/caches/transforms-3/3af34c5620435f6e4b07b68d88af60d8/transformed/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/balab/.gradle/caches/transforms-3/3af34c5620435f6e4b07b68d88af60d8/transformed/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/balab/.gradle/caches/transforms-3/606f15818b3c72e09b853f05657cd24a/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/balab/.gradle/caches/transforms-3/606f15818b3c72e09b853f05657cd24a/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/balab/.gradle/caches/transforms-3/62386f5ac3394febff69b6cf170f3eb6/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/balab/.gradle/caches/transforms-3/62386f5ac3394febff69b6cf170f3eb6/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/balab/.gradle/caches/transforms-3/7d63e9067da7d152e342dccc6db860c5/transformed/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/balab/.gradle/caches/transforms-3/7d63e9067da7d152e342dccc6db860c5/transformed/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/balab/.gradle/caches/transforms-3/cc7a4f2a5aed36c16f7e5fa43c07d525/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/balab/.gradle/caches/transforms-3/cc7a4f2a5aed36c16f7e5fa43c07d525/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/balab/.gradle/caches/transforms-3/ad4264cdb41315b7bda407fec3d497c3/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/balab/.gradle/caches/transforms-3/ad4264cdb41315b7bda407fec3d497c3/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.3.6] /Users/balab/.gradle/caches/transforms-3/9886dca957be154f03ef4e21bfd81a26/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /Users/balab/.gradle/caches/transforms-3/9886dca957be154f03ef4e21bfd81a26/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.6.0] /Users/balab/.gradle/caches/transforms-3/8c3e379e355151a0d289a07912a2bfee/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.6.0] /Users/balab/.gradle/caches/transforms-3/8c3e379e355151a0d289a07912a2bfee/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0-beta01] /Users/balab/.gradle/caches/transforms-3/f09e4f1f07c458c13c172ea265df8903/transformed/recyclerview-1.0.0-beta01/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0-beta01] /Users/balab/.gradle/caches/transforms-3/f09e4f1f07c458c13c172ea265df8903/transformed/recyclerview-1.0.0-beta01/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/balab/.gradle/caches/transforms-3/732824bd4fb8520640bc3a04c36a717a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/balab/.gradle/caches/transforms-3/732824bd4fb8520640bc3a04c36a717a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/balab/.gradle/caches/transforms-3/59d6975854f8c43b6371112b75f7424d/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/balab/.gradle/caches/transforms-3/59d6975854f8c43b6371112b75f7424d/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/balab/.gradle/caches/transforms-3/a78338e5ea8c3ea9dae992156367056e/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/balab/.gradle/caches/transforms-3/a78338e5ea8c3ea9dae992156367056e/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/balab/.gradle/caches/transforms-3/6ea8a986cfedfc5b51e34fad0b49b568/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/balab/.gradle/caches/transforms-3/6ea8a986cfedfc5b51e34fad0b49b568/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.transition:transition:1.0.0-beta01] /Users/balab/.gradle/caches/transforms-3/4e5d382cba7db6f047f4850a680cf3cc/transformed/transition-1.0.0-beta01/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0-beta01] /Users/balab/.gradle/caches/transforms-3/4e5d382cba7db6f047f4850a680cf3cc/transformed/transition-1.0.0-beta01/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/balab/.gradle/caches/transforms-3/cc01fb6a1439d7e0ea95a3b78339838f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/balab/.gradle/caches/transforms-3/cc01fb6a1439d7e0ea95a3b78339838f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /Users/balab/.gradle/caches/transforms-3/99cdc0f9a2ffbb83cbd9848c29548681/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /Users/balab/.gradle/caches/transforms-3/99cdc0f9a2ffbb83cbd9848c29548681/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/balab/.gradle/caches/transforms-3/e614cae2b84717ef0591b216e8b8279b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/balab/.gradle/caches/transforms-3/e614cae2b84717ef0591b216e8b8279b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/balab/.gradle/caches/transforms-3/a63aacd334d1ecd3e6602e29886826ab/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/balab/.gradle/caches/transforms-3/a63aacd334d1ecd3e6602e29886826ab/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/balab/.gradle/caches/transforms-3/51ede2eeacf4ac11b7ae263c5c23e7d0/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/balab/.gradle/caches/transforms-3/51ede2eeacf4ac11b7ae263c5c23e7d0/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.9.0] /Users/balab/.gradle/caches/transforms-3/742f27bbf9705dd852dbc88f8c713df4/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.9.0] /Users/balab/.gradle/caches/transforms-3/742f27bbf9705dd852dbc88f8c713df4/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/balab/.gradle/caches/transforms-3/3a095fed74237fa4e5b33125f5d88944/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/balab/.gradle/caches/transforms-3/3a095fed74237fa4e5b33125f5d88944/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/balab/.gradle/caches/transforms-3/958f277fcb38fe0c0e70f620efd00af9/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/balab/.gradle/caches/transforms-3/958f277fcb38fe0c0e70f620efd00af9/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/balab/.gradle/caches/transforms-3/e646683d18ea5c2127f2e27800199407/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/balab/.gradle/caches/transforms-3/e646683d18ea5c2127f2e27800199407/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/balab/.gradle/caches/transforms-3/d54b83c94a44b4a63548867eb5914b62/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/balab/.gradle/caches/transforms-3/d54b83c94a44b4a63548867eb5914b62/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/balab/.gradle/caches/transforms-3/47fe9e2c094bc857cfab7c9cd576d188/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/balab/.gradle/caches/transforms-3/47fe9e2c094bc857cfab7c9cd576d188/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/balab/.gradle/caches/transforms-3/52a4fa00af3595536139b7dcc5ff77c6/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/balab/.gradle/caches/transforms-3/52a4fa00af3595536139b7dcc5ff77c6/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.9.0] /Users/balab/.gradle/caches/transforms-3/2e6153425324545fcd287a2f319ce459/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.9.0] /Users/balab/.gradle/caches/transforms-3/2e6153425324545fcd287a2f319ce459/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/balab/.gradle/caches/transforms-3/22da08feca67bb7dd917f53d845de943/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/balab/.gradle/caches/transforms-3/22da08feca67bb7dd917f53d845de943/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/balab/.gradle/caches/transforms-3/a58757d500b860aff0164021624f88a7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/balab/.gradle/caches/transforms-3/a58757d500b860aff0164021624f88a7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/balab/.gradle/caches/transforms-3/8e07021372a4a118c1605278facccf6c/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/balab/.gradle/caches/transforms-3/8e07021372a4a118c1605278facccf6c/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/balab/.gradle/caches/transforms-3/5f09fcb074438bb6048f00b0a1946bf5/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/balab/.gradle/caches/transforms-3/5f09fcb074438bb6048f00b0a1946bf5/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/balab/.gradle/caches/transforms-3/6fec49f0f053ee7c2af9be5ebff05621/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/balab/.gradle/caches/transforms-3/6fec49f0f053ee7c2af9be5ebff05621/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/balab/.gradle/caches/transforms-3/f62f03c05502b61e85f9d1da65e35a9b/transformed/jetified-gifdecoder-4.8.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/balab/.gradle/caches/transforms-3/f62f03c05502b61e85f9d1da65e35a9b/transformed/jetified-gifdecoder-4.8.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/balab/.gradle/caches/transforms-3/8f910939e308c4659af0db79d071496a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/balab/.gradle/caches/transforms-3/8f910939e308c4659af0db79d071496a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/balab/.gradle/caches/transforms-3/7c02ccc131cf75a3329e0adf02d5fbe3/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/balab/.gradle/caches/transforms-3/7c02ccc131cf75a3329e0adf02d5fbe3/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/balab/.gradle/caches/transforms-3/7b1bf3efbe656f18e50ac61c5e0d5fe1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/balab/.gradle/caches/transforms-3/7b1bf3efbe656f18e50ac61c5e0d5fe1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/balab/.gradle/caches/transforms-3/1d760cf2ef76624890423728f9aa543b/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/balab/.gradle/caches/transforms-3/1d760cf2ef76624890423728f9aa543b/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/balab/.gradle/caches/transforms-3/7e3a412c9cc994c59ff1b222a48836f9/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/balab/.gradle/caches/transforms-3/7e3a412c9cc994c59ff1b222a48836f9/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/balab/.gradle/caches/transforms-3/a317eae34468cc98eb8e2f73c2d65dd4/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/balab/.gradle/caches/transforms-3/a317eae34468cc98eb8e2f73c2d65dd4/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/balab/.gradle/caches/transforms-3/b765751846c5de494f25b74491b64049/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/balab/.gradle/caches/transforms-3/b765751846c5de494f25b74491b64049/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/balab/.gradle/caches/transforms-3/3d58b592eaee7810b6ae642dad35bb31/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/balab/.gradle/caches/transforms-3/3d58b592eaee7810b6ae642dad35bb31/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/balab/.gradle/caches/transforms-3/786dc89f9541acf4b79445b1288c5f13/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/balab/.gradle/caches/transforms-3/786dc89f9541acf4b79445b1288c5f13/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/balab/.gradle/caches/transforms-3/1aaf244137f2859c166b7b6ec2c63d68/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/balab/.gradle/caches/transforms-3/1aaf244137f2859c166b7b6ec2c63d68/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+INJECTED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml
+INJECTED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0-beta01] C:\Users\bbala\.gradle\caches\8.13\transforms\f73d03ea5a8d0b36ae80fc067d5bcd8f\transformed\material-1.0.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0-beta01] C:\Users\bbala\.gradle\caches\8.13\transforms\f73d03ea5a8d0b36ae80fc067d5bcd8f\transformed\material-1.0.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\bbala\.gradle\caches\8.13\transforms\81b825b2d855ae1fbc1f450d80c428c2\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\bbala\.gradle\caches\8.13\transforms\81b825b2d855ae1fbc1f450d80c428c2\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\bbala\.gradle\caches\8.13\transforms\41be649732cceece7ee589cac94e93a6\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\bbala\.gradle\caches\8.13\transforms\41be649732cceece7ee589cac94e93a6\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\bbala\.gradle\caches\8.13\transforms\811d2bd3a2bd0c2ad4b74b12fb8dfac7\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\bbala\.gradle\caches\8.13\transforms\811d2bd3a2bd0c2ad4b74b12fb8dfac7\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\ed3ac9e9758109efa7ad347b29a13cb8\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\ed3ac9e9758109efa7ad347b29a13cb8\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\bbala\.gradle\caches\8.13\transforms\1490e2f9dbfae438479b2e0c33623c97\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\bbala\.gradle\caches\8.13\transforms\1490e2f9dbfae438479b2e0c33623c97\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\bbala\.gradle\caches\8.13\transforms\ad2bc51272ce9f64dcd161d446f88eaa\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\bbala\.gradle\caches\8.13\transforms\ad2bc51272ce9f64dcd161d446f88eaa\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.1] C:\Users\bbala\.gradle\caches\8.13\transforms\dd08405a08d948ad73eed7e8b615b955\transformed\jetified-threetenabp-1.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.1] C:\Users\bbala\.gradle\caches\8.13\transforms\dd08405a08d948ad73eed7e8b615b955\transformed\jetified-threetenabp-1.2.1\AndroidManifest.xml:5:5-44
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\f53835735d1a584a12cb9b84b799fb58\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\f53835735d1a584a12cb9b84b799fb58\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\c7eb8aa9f20a5e5c927dd1a1d450617e\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\c7eb8aa9f20a5e5c927dd1a1d450617e\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\bbala\.gradle\caches\8.13\transforms\31df3e3fcf56ad9d259c7515cf644e14\transformed\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\bbala\.gradle\caches\8.13\transforms\31df3e3fcf56ad9d259c7515cf644e14\transformed\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\8656dc18dcd9060c423ec6bda3e50ff0\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\8656dc18dcd9060c423ec6bda3e50ff0\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.daimajia.swipelayout:library:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\68ac3e9dd3cc85272d103b6d17e307de\transformed\jetified-library-1.2.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.daimajia.swipelayout:library:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\68ac3e9dd3cc85272d103b6d17e307de\transformed\jetified-library-1.2.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\bbala\.gradle\caches\8.13\transforms\497a3668b60a8d0fd9a1230c27c93067\transformed\jetified-glide-4.8.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\bbala\.gradle\caches\8.13\transforms\497a3668b60a8d0fd9a1230c27c93067\transformed\jetified-glide-4.8.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\bbala\.gradle\caches\8.13\transforms\c1f03b0e4716e9d21ea6caad58a8d27b\transformed\jetified-eazegraph-1.2.5l\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\bbala\.gradle\caches\8.13\transforms\c1f03b0e4716e9d21ea6caad58a8d27b\transformed\jetified-eazegraph-1.2.5l\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\c842081d3180d50311b2330ad7c58a7a\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\c842081d3180d50311b2330ad7c58a7a\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\910d80d7d663d5b8bca2b808010a7d6f\transformed\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\910d80d7d663d5b8bca2b808010a7d6f\transformed\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\7f5eedd2d8ef017e56e52552851532d3\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\7f5eedd2d8ef017e56e52552851532d3\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\28cffed5e602f4a4cae2b29f8fe9001b\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\28cffed5e602f4a4cae2b29f8fe9001b\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e5f22edf84c50118184f0027d865629d\transformed\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e5f22edf84c50118184f0027d865629d\transformed\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\2899b0611ffcf7a2f6f8a8569c926b00\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\2899b0611ffcf7a2f6f8a8569c926b00\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\510feb710cc0de8cb595351c4649da04\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\510feb710cc0de8cb595351c4649da04\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\bbala\.gradle\caches\8.13\transforms\39d28efcf1766b38962ba0accedff0c7\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\bbala\.gradle\caches\8.13\transforms\39d28efcf1766b38962ba0accedff0c7\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\bbala\.gradle\caches\8.13\transforms\2b0afb12bb605c841d2223e0c27aefd1\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\bbala\.gradle\caches\8.13\transforms\2b0afb12bb605c841d2223e0c27aefd1\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0-beta01] C:\Users\bbala\.gradle\caches\8.13\transforms\d42690f0739f5a83495b6508a2da2618\transformed\recyclerview-1.0.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0-beta01] C:\Users\bbala\.gradle\caches\8.13\transforms\d42690f0739f5a83495b6508a2da2618\transformed\recyclerview-1.0.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\06661d77b4f568f1f99b3368bcab4c4e\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\06661d77b4f568f1f99b3368bcab4c4e\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\3cb0f0373f9257014b572d772459eb51\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\3cb0f0373f9257014b572d772459eb51\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\6d5be5d86a6c064580535206c22cee85\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\6d5be5d86a6c064580535206c22cee85\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\256e1fcbb47d4f8e70653a38ab1eb02c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\256e1fcbb47d4f8e70653a38ab1eb02c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.transition:transition:1.0.0-beta01] C:\Users\bbala\.gradle\caches\8.13\transforms\26da09d3678eae2056499e9a70cf6afe\transformed\transition-1.0.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0-beta01] C:\Users\bbala\.gradle\caches\8.13\transforms\26da09d3678eae2056499e9a70cf6afe\transformed\transition-1.0.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\c547412d290fa5adba3850b24276bc98\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\c547412d290fa5adba3850b24276bc98\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\5c1d4037be70ddd781da00eaccf093dd\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\5c1d4037be70ddd781da00eaccf093dd\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\96586953f43a1f57ef59775335e5ce2c\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\96586953f43a1f57ef59775335e5ce2c\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\bbala\.gradle\caches\8.13\transforms\ce1870a3850c137a3501a8e13419c6f9\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\bbala\.gradle\caches\8.13\transforms\ce1870a3850c137a3501a8e13419c6f9\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\bbala\.gradle\caches\8.13\transforms\108def996525df726de460eb8366cf9c\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\bbala\.gradle\caches\8.13\transforms\108def996525df726de460eb8366cf9c\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\481c7d0ea8714805cc9ba74d914cc99a\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\481c7d0ea8714805cc9ba74d914cc99a\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\4cb96fd879db4fc888fa5e6b7817f024\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\4cb96fd879db4fc888fa5e6b7817f024\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\2c6cfb3056366ffe61ca5cb633191a62\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\2c6cfb3056366ffe61ca5cb633191a62\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\6964e7fb149e3c5876b7027c4e445f4c\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\6964e7fb149e3c5876b7027c4e445f4c\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\56d690514ae99572e7d1ffffa734a622\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\56d690514ae99572e7d1ffffa734a622\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e3fc3eca1a91205a7426951eddb73e4a\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e3fc3eca1a91205a7426951eddb73e4a\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e81864011ac25778cddc8b767eb5f3e3\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e81864011ac25778cddc8b767eb5f3e3\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\4c60127a4c1fc9a51ea093157d2537b3\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\4c60127a4c1fc9a51ea093157d2537b3\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\bbala\.gradle\caches\8.13\transforms\b515cb24753bebab74d8916856f8ed08\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\bbala\.gradle\caches\8.13\transforms\b515cb24753bebab74d8916856f8ed08\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\bbala\.gradle\caches\8.13\transforms\76854e8b48836b06b6f34fc27ec3018d\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\bbala\.gradle\caches\8.13\transforms\76854e8b48836b06b6f34fc27ec3018d\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\bd6dcd0a85bdd9e51758156cd97b7c1a\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\bd6dcd0a85bdd9e51758156cd97b7c1a\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\bbala\.gradle\caches\8.13\transforms\6f167b00711799b41837eb669c484f22\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\bbala\.gradle\caches\8.13\transforms\6f167b00711799b41837eb669c484f22\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\bbala\.gradle\caches\8.13\transforms\1fe0ec07ac7faec4e543c42bcea408b4\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\bbala\.gradle\caches\8.13\transforms\1fe0ec07ac7faec4e543c42bcea408b4\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\bbala\.gradle\caches\8.13\transforms\41019ba6543dd15bad489ab787783d81\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\bbala\.gradle\caches\8.13\transforms\41019ba6543dd15bad489ab787783d81\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\4c3d70e51dfe3b17937392e9b1451cf4\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\4c3d70e51dfe3b17937392e9b1451cf4\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\7b41f5abaea65744c206cc57bac4c885\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\7b41f5abaea65744c206cc57bac4c885\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\bbala\.gradle\caches\8.13\transforms\cc6afb2bca707cfc306918279b095250\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\bbala\.gradle\caches\8.13\transforms\cc6afb2bca707cfc306918279b095250\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\bbala\.gradle\caches\8.13\transforms\313cffd0835928cdeea58a00645e24cb\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\bbala\.gradle\caches\8.13\transforms\313cffd0835928cdeea58a00645e24cb\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\205cdfce341ddd2de70df82ffdd49de1\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\205cdfce341ddd2de70df82ffdd49de1\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\205b737dc10fc80b6d184b3b20fce9f1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\205b737dc10fc80b6d184b3b20fce9f1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\cc7709268c6d24954dbef34b9a4b82fd\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\cc7709268c6d24954dbef34b9a4b82fd\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\b6195618107ed5e28255d35714dc62b4\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\b6195618107ed5e28255d35714dc62b4\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\bbala\.gradle\caches\8.13\transforms\ae638c3e8ac8482a81cdea35b84365e6\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\bbala\.gradle\caches\8.13\transforms\ae638c3e8ac8482a81cdea35b84365e6\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml
+		INJECTED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Volumes/WORK/FlutterApps/minervamobile/app/src/main/AndroidManifest.xml
+		INJECTED from D:\Mobile\minervamobile\app\src\main\AndroidManifest.xml
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/balab/.gradle/caches/transforms-3/1ef4ec9a0b5e9c4f3d7aa1d928ff3626/transformed/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:28:9-34:19
+ADDED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\8656dc18dcd9060c423ec6bda3e50ff0\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/balab/.gradle/caches/transforms-3/1ef4ec9a0b5e9c4f3d7aa1d928ff3626/transformed/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:30:13-37
+		ADDED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\8656dc18dcd9060c423ec6bda3e50ff0\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/balab/.gradle/caches/transforms-3/1ef4ec9a0b5e9c4f3d7aa1d928ff3626/transformed/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:29:13-82
+		ADDED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\8656dc18dcd9060c423ec6bda3e50ff0\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:24:5-68
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:24:22-65
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:24:22-65
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:26:5-82
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:26:22-79
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:22-79
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:29:9-35:19
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:29:9-35:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:31:13-37
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:30:13-84
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:30:13-84
 meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
-ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:32:13-34:85
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:34:17-82
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:33:17-96
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:37:9-44:20
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:39:13-36
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:40:13-73
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:38:13-78
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:41:13-43:29
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:42:17-81
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/balab/.gradle/caches/transforms-3/e346872624acf6b7a582aa5510dc978b/transformed/jetified-firebase-iid-20.0.0/AndroidManifest.xml:42:25-78
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\d823b446b364173478c2282ea0bd0e9b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/balab/.gradle/caches/transforms-3/22eb54344a02b945622b7085177017f1/transformed/jetified-firebase-common-19.0.0/AndroidManifest.xml:12:9-16:39
+ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\c842081d3180d50311b2330ad7c58a7a\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/balab/.gradle/caches/transforms-3/22eb54344a02b945622b7085177017f1/transformed/jetified-firebase-common-19.0.0/AndroidManifest.xml:14:13-72
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\c842081d3180d50311b2330ad7c58a7a\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:14:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/balab/.gradle/caches/transforms-3/22eb54344a02b945622b7085177017f1/transformed/jetified-firebase-common-19.0.0/AndroidManifest.xml:15:13-37
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\c842081d3180d50311b2330ad7c58a7a\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:15:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/balab/.gradle/caches/transforms-3/22eb54344a02b945622b7085177017f1/transformed/jetified-firebase-common-19.0.0/AndroidManifest.xml:16:13-36
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\c842081d3180d50311b2330ad7c58a7a\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/balab/.gradle/caches/transforms-3/22eb54344a02b945622b7085177017f1/transformed/jetified-firebase-common-19.0.0/AndroidManifest.xml:13:13-77
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\c842081d3180d50311b2330ad7c58a7a\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:13:13-77
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/balab/.gradle/caches/transforms-3/606f15818b3c72e09b853f05657cd24a/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\7f5eedd2d8ef017e56e52552851532d3\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/balab/.gradle/caches/transforms-3/606f15818b3c72e09b853f05657cd24a/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\7f5eedd2d8ef017e56e52552851532d3\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/balab/.gradle/caches/transforms-3/606f15818b3c72e09b853f05657cd24a/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\7f5eedd2d8ef017e56e52552851532d3\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/balab/.gradle/caches/transforms-3/606f15818b3c72e09b853f05657cd24a/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\7f5eedd2d8ef017e56e52552851532d3\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/balab/.gradle/caches/transforms-3/ad4264cdb41315b7bda407fec3d497c3/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\510feb710cc0de8cb595351c4649da04\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/balab/.gradle/caches/transforms-3/ad4264cdb41315b7bda407fec3d497c3/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\510feb710cc0de8cb595351c4649da04\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/balab/.gradle/caches/transforms-3/ad4264cdb41315b7bda407fec3d497c3/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\bbala\.gradle\caches\8.13\transforms\510feb710cc0de8cb595351c4649da04\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/balab/.gradle/caches/transforms-3/6ea8a986cfedfc5b51e34fad0b49b568/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/balab/.gradle/caches/transforms-3/a58757d500b860aff0164021624f88a7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/balab/.gradle/caches/transforms-3/a58757d500b860aff0164021624f88a7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/balab/.gradle/caches/transforms-3/8f910939e308c4659af0db79d071496a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/balab/.gradle/caches/transforms-3/8f910939e308c4659af0db79d071496a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\256e1fcbb47d4f8e70653a38ab1eb02c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\bbala\.gradle\caches\8.13\transforms\b515cb24753bebab74d8916856f8ed08\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\bbala\.gradle\caches\8.13\transforms\b515cb24753bebab74d8916856f8ed08\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\bbala\.gradle\caches\8.13\transforms\41019ba6543dd15bad489ab787783d81\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\bbala\.gradle\caches\8.13\transforms\41019ba6543dd15bad489ab787783d81\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/balab/.gradle/caches/transforms-3/6ea8a986cfedfc5b51e34fad0b49b568/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\256e1fcbb47d4f8e70653a38ab1eb02c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/balab/.gradle/caches/transforms-3/6ea8a986cfedfc5b51e34fad0b49b568/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\256e1fcbb47d4f8e70653a38ab1eb02c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/balab/.gradle/caches/transforms-3/6ea8a986cfedfc5b51e34fad0b49b568/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\256e1fcbb47d4f8e70653a38ab1eb02c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/balab/.gradle/caches/transforms-3/6ea8a986cfedfc5b51e34fad0b49b568/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\256e1fcbb47d4f8e70653a38ab1eb02c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/balab/.gradle/caches/transforms-3/6ea8a986cfedfc5b51e34fad0b49b568/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\256e1fcbb47d4f8e70653a38ab1eb02c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/balab/.gradle/caches/transforms-3/6ea8a986cfedfc5b51e34fad0b49b568/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\256e1fcbb47d4f8e70653a38ab1eb02c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/balab/.gradle/caches/transforms-3/6ea8a986cfedfc5b51e34fad0b49b568/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\bbala\.gradle\caches\8.13\transforms\256e1fcbb47d4f8e70653a38ab1eb02c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] /Users/balab/.gradle/caches/transforms-3/2e6153425324545fcd287a2f319ce459/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.9.0] /Users/balab/.gradle/caches/transforms-3/2e6153425324545fcd287a2f319ce459/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.9.0] /Users/balab/.gradle/caches/transforms-3/2e6153425324545fcd287a2f319ce459/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 permission#com.qdocs.ssre241123.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] /Users/balab/.gradle/caches/transforms-3/2e6153425324545fcd287a2f319ce459/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.9.0] /Users/balab/.gradle/caches/transforms-3/2e6153425324545fcd287a2f319ce459/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.9.0] /Users/balab/.gradle/caches/transforms-3/2e6153425324545fcd287a2f319ce459/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] /Users/balab/.gradle/caches/transforms-3/2e6153425324545fcd287a2f319ce459/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.9.0] /Users/balab/.gradle/caches/transforms-3/2e6153425324545fcd287a2f319ce459/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 uses-permission#com.qdocs.ssre241123.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] /Users/balab/.gradle/caches/transforms-3/2e6153425324545fcd287a2f319ce459/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.9.0] /Users/balab/.gradle/caches/transforms-3/2e6153425324545fcd287a2f319ce459/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.9.0] C:\Users\bbala\.gradle\caches\8.13\transforms\e573d30699685bb70d976c2fe5dc9105\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/balab/.gradle/caches/transforms-3/a58757d500b860aff0164021624f88a7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\bbala\.gradle\caches\8.13\transforms\b515cb24753bebab74d8916856f8ed08\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/balab/.gradle/caches/transforms-3/a58757d500b860aff0164021624f88a7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\bbala\.gradle\caches\8.13\transforms\b515cb24753bebab74d8916856f8ed08\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/balab/.gradle/caches/transforms-3/a58757d500b860aff0164021624f88a7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\bbala\.gradle\caches\8.13\transforms\b515cb24753bebab74d8916856f8ed08\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78

@@ -295,14 +295,13 @@ class _CalendarTodoListItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       margin: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15.0)),
-      elevation: 5.0,
+      elevation: 2.0,
       child: Padding(
         padding: const EdgeInsets.all(10.0),
         child: Row(
           children: [
             Image.asset(
-              'assets/ic_dashboard_pandingtask.png', // Assuming this is the correct icon
+              'assets/ic_dashboard_pandingtask.png',
               width: 25,
               height: 25,
             ),
@@ -316,16 +315,15 @@ class _CalendarTodoListItem extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.bold,
-                      color: Colors.black,
                       decoration: task.isCompleted ? TextDecoration.lineThrough : TextDecoration.none,
                     ),
                   ),
+                  const SizedBox(height: 4),
                   Text(
                     task.taskDate,
                     style: TextStyle(
                       fontSize: 14,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black54,
+                      color: Colors.grey.shade600,
                       decoration: task.isCompleted ? TextDecoration.lineThrough : TextDecoration.none,
                     ),
                   ),
@@ -333,23 +331,19 @@ class _CalendarTodoListItem extends StatelessWidget {
               ),
             ),
             IconButton(
-              icon: const Icon(Icons.edit, color: Colors.black54),
-              onPressed: () {
-                onEdit?.call(task);
-                log('Edit task tapped for ID: ${task.id}');
-              },
+              icon: const Icon(Icons.edit, color: Colors.grey),
+              onPressed: () => onEdit?.call(task),
             ),
             Checkbox(
               value: task.isCompleted,
               onChanged: (bool? newValue) {
                 if (newValue != null) {
                   context.read<CalendarTodoBloc>().add(
-                    MarkCalendarTodoAsCompleteEvent(
-                      id: task.id,
-                      isCompleted: newValue,
-                    ),
-                  );
-                  log('Task ID: ${task.id} marked as completed: $newValue');
+                        MarkCalendarTodoAsCompleteEvent(
+                          id: task.id,
+                          isCompleted: newValue,
+                        ),
+                      );
                 }
               },
             ),
