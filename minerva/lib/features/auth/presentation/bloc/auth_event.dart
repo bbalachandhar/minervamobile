@@ -15,3 +15,15 @@ class LoginRequested extends AuthEvent {
   @override
   List<Object> get props => [username, password];
 }
+
+class StaffLoginRequested extends AuthEvent {
+  final String email;
+  final String password;
+
+  const StaffLoginRequested({required this.email, required this.password});
+
+  @override
+  List<Object> get props => [email, password];
+}
+
+class StaffLogoutRequested extends AuthEvent {}

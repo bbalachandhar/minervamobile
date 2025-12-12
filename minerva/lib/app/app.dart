@@ -12,8 +12,6 @@ import 'package:minerva_flutter/features/auth/presentation/pages/login_page.dart
 import 'package:minerva_flutter/features/dashboard/data/repositories/dashboard_repository.dart';
 import 'package:minerva_flutter/features/dashboard/presentation/bloc/dashboard_bloc.dart';
 import 'package:minerva_flutter/features/dashboard/presentation/pages/dashboard_page.dart';
-import 'package:minerva_flutter/features/fees/data/repositories/fees_repository.dart';
-import 'package:minerva_flutter/features/fees/presentation/bloc/fees_bloc.dart';
 import 'package:minerva_flutter/features/fees/presentation/pages/fees_screen.dart';
 import 'package:minerva_flutter/features/fees/presentation/pages/processing_fees_screen.dart';
 import 'package:minerva_flutter/features/fees/presentation/bloc/offline_payment_bloc.dart';
@@ -77,6 +75,15 @@ import 'package:minerva_flutter/features/library/presentation/bloc/library_bloc.
 import 'package:minerva_flutter/features/library/presentation/pages/library_page.dart';
 import 'package:minerva_flutter/features/teachers_rating/presentation/pages/teachers_rating_page.dart';
 
+import 'package:minerva_flutter/features/staff_profile/data/repositories/staff_profile_repository.dart';
+import 'package:minerva_flutter/features/staff_profile/presentation/bloc/staff_profile_bloc.dart';
+import 'package:minerva_flutter/features/staff_profile/presentation/pages/staff_profile_page.dart';
+
+import '../features/dashboard/presentation/pages/staff_dashboard_page.dart';
+import '../features/fees/data/repositories/fees_repository.dart';
+import '../features/fees/presentation/bloc/fees_bloc.dart';
+
+
 
 class App extends StatelessWidget {
   final SharedPreferences sharedPreferences;
@@ -108,6 +115,18 @@ class App extends StatelessWidget {
         path: '/dashboard',
         builder: (BuildContext context, GoRouterState state) {
           return const DashboardPage();
+        },
+      ),
+      GoRoute(
+        path: '/staff/dashboard',
+        builder: (BuildContext context, GoRouterState state) {
+          return const StaffDashboardPage();
+        },
+      ),
+      GoRoute(
+        path: '/staff/profile',
+        builder: (BuildContext context, GoRouterState state) {
+          return const StaffProfilePage();
         },
       ),
       GoRoute(
@@ -266,6 +285,9 @@ class App extends StatelessWidget {
         RepositoryProvider<TeacherRepository>(
           create: (context) => TeacherRepository(),
         ),
+        RepositoryProvider<StaffProfileRepository>(
+          create: (context) => StaffProfileRepository(sharedPreferences: sharedPreferences),
+        ),
       ],
       child: MultiBlocProvider(
         providers: [
@@ -384,6 +406,12 @@ class App extends StatelessWidget {
               getIssuedBooksUseCase: GetIssuedBooksUseCase(
                 repository: RepositoryProvider.of<LibraryRepository>(context),
               ),
+            ),
+          ),
+          BlocProvider(
+            create: (context) => StaffProfileBloc(
+              staffProfileRepository:
+                  RepositoryProvider.of<StaffProfileRepository>(context),
             ),
           ),
         ],
