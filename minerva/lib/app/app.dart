@@ -103,16 +103,32 @@ import 'package:minerva_flutter/features/attendance/domain/usecases/get_attendan
 import 'package:minerva_flutter/features/attendance/presentation/bloc/attendance_bloc.dart';
 import 'package:minerva_flutter/features/attendance/presentation/pages/attendance_page.dart';
 
+// Imports for Class Timetable Feature
+import 'package:minerva_flutter/features/class_timetable/data/datasources/class_timetable_remote_data_source.dart';
+import 'package:minerva_flutter/features/class_timetable/data/repositories/class_timetable_repository_impl.dart';
+import 'package:minerva_flutter/features/class_timetable/domain/repositories/class_timetable_repository.dart';
+import 'package:minerva_flutter/features/class_timetable/domain/usecases/get_class_timetable.dart';
+import 'package:minerva_flutter/features/class_timetable/presentation/bloc/class_timetable_bloc.dart';
+import 'package:minerva_flutter/features/class_timetable/presentation/pages/class_timetable_page.dart';
+
 import '../features/dashboard/presentation/pages/staff_dashboard_page.dart';
 import '../features/fees/data/repositories/fees_repository.dart';
 import '../features/fees/presentation/bloc/fees_bloc.dart';
 
-
+// Dummy implementation for ClassTimetableRepository
+class _DummyClassTimetableRepository implements ClassTimetableRepository {
+  @override
+  Future<Map<String, List<ClassTimetableEntry>>> getClassTimetable() async {
+    return Future.value({}); // Return an empty map for now
+  }
+}
 
 class App extends StatelessWidget {
   final SharedPreferences sharedPreferences;
+  final http.Client httpClient;
 
-  App({Key? key, required this.sharedPreferences}) : super(key: key) {
+  App({Key? key, required this.sharedPreferences, required this.httpClient})
+      : super(key: key) {
     log('App: App widget constructor called');
   }
 
@@ -284,7 +300,7 @@ class App extends StatelessWidget {
         path: '/class_timetable', // New route for TimetablePage
         builder: (BuildContext context, GoRouterState state) {
           log('App: Navigating to /class_timetable');
-          return const TimetablePage();
+          return const ClassTimetablePage();
         },
       ),
       GoRoute(
@@ -420,7 +436,7 @@ class App extends StatelessWidget {
           },
         ),
         RepositoryProvider<http.Client>(
-          create: (context) => http.Client(),
+          create: (context) => httpClient,
         ),
         RepositoryProvider<AttendanceRemoteDataSource>(
           create: (context) => AttendanceRemoteDataSourceImpl(
@@ -432,6 +448,20 @@ class App extends StatelessWidget {
           create: (context) => AttendanceRepositoryImpl(
             remoteDataSource: RepositoryProvider.of<AttendanceRemoteDataSource>(context),
           ),
+        ),
+        RepositoryProvider<ClassTimetableRemoteDataSource>(
+          create: (context) => ClassTimetableRemoteDataSourceImpl(
+            client: RepositoryProvider.of<http.Client>(context),
+            sharedPreferences: sharedPreferences,
+          ),
+        ),
+        RepositoryProvider<ClassTimetableRepository>(
+          create: (context) {
+            log('App: Creating ClassTimetableRepository');
+            return ClassTimetableRepositoryImpl(
+              remoteDataSource: RepositoryProvider.of<ClassTimetableRemoteDataSource>(context),
+            );
+          },
         ),
       ],
       child: MultiBlocProvider(
@@ -637,6 +667,16 @@ class App extends StatelessWidget {
               );
             },
           ),
+          BlocProvider(
+            create: (context) {
+              log('App: Creating ClassTimetableBloc');
+              return ClassTimetableBloc(
+                getClassTimetable: GetClassTimetable(
+                  RepositoryProvider.of<ClassTimetableRepository>(context),
+                ),
+              );
+            },
+          ),
         ],
         child: MaterialApp.router(
           routerConfig: _router,
@@ -649,6 +689,3 @@ class App extends StatelessWidget {
     );
   }
 }
-
-
-
