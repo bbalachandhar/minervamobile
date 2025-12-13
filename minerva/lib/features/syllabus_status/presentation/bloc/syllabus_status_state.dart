@@ -1,5 +1,4 @@
-import 'package:equatable/equatable.dart';
-import 'package:minerva_flutter/features/syllabus_status/domain/entities/syllabus_status_entity.dart';
+part of 'syllabus_status_bloc.dart';
 
 abstract class SyllabusStatusState extends Equatable {
   const SyllabusStatusState();
@@ -13,18 +12,18 @@ class SyllabusStatusInitial extends SyllabusStatusState {}
 class SyllabusStatusLoading extends SyllabusStatusState {}
 
 class SyllabusStatusLoaded extends SyllabusStatusState {
-  final List<SyllabusStatus> syllabusStatus;
+  final List<SyllabusStatusEntry> syllabusStatusEntries;
 
-  const SyllabusStatusLoaded({required this.syllabusStatus});
+  const SyllabusStatusLoaded(this.syllabusStatusEntries);
 
   @override
-  List<Object> get props => [syllabusStatus];
+  List<Object> get props => [syllabusStatusEntries];
 }
 
 class SyllabusStatusError extends SyllabusStatusState {
   final String message;
 
-  const SyllabusStatusError({required this.message});
+  const SyllabusStatusError(this.message);
 
   @override
   List<Object> get props => [message];

@@ -325,6 +325,9 @@ class App extends StatelessWidget {
     log('App: Building widget tree');
     return MultiRepositoryProvider(
       providers: [
+        RepositoryProvider<http.Client>(
+          create: (context) => httpClient,
+        ),
         RepositoryProvider<AuthenticationRepository>(
           create: (context) {
             log('App: Creating AuthenticationRepository');
@@ -431,7 +434,10 @@ class App extends StatelessWidget {
           create: (context) {
             log('App: Creating SyllabusStatusRepository');
             return SyllabusStatusRepositoryImpl(
-              remoteDataSource: SyllabusStatusRemoteDataSourceImpl(sharedPreferences: sharedPreferences),
+              remoteDataSource: SyllabusStatusRemoteDataSourceImpl(
+                client: RepositoryProvider.of<http.Client>(context),
+                sharedPreferences: sharedPreferences,
+              ),
             );
           },
         ),
@@ -652,7 +658,7 @@ class App extends StatelessWidget {
               log('App: Creating SyllabusStatusBloc');
               return SyllabusStatusBloc(
               getSyllabusStatusUseCase: GetSyllabusStatusUseCase(
-                repository: RepositoryProvider.of<SyllabusStatusRepository>(context),
+                RepositoryProvider.of<SyllabusStatusRepository>(context),
               ),
             );
             },

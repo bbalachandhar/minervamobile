@@ -1,4 +1,4 @@
-import 'package:equatable/equatable.dart';
+part of 'syllabus_status_bloc.dart';
 
 abstract class SyllabusStatusEvent extends Equatable {
   const SyllabusStatusEvent();
@@ -7,6 +7,4 @@ abstract class SyllabusStatusEvent extends Equatable {
   List<Object> get props => [];
 }
 
-class FetchSyllabusStatus extends SyllabusStatusEvent {
-  const FetchSyllabusStatus();
-}
+class FetchSyllabusStatus extends SyllabusStatusEvent {}
