@@ -342,6 +342,7 @@ class _CalendarTodoListItem extends StatelessWidget {
                         MarkCalendarTodoAsCompleteEvent(
                           id: task.id,
                           isCompleted: newValue,
+                          date: task.taskDate,
                         ),
                       );
                 }

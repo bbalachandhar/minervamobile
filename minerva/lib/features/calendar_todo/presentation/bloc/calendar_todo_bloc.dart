@@ -101,8 +101,8 @@ class CalendarTodoBloc extends Bloc<CalendarTodoEvent, CalendarTodoState> {
           message: event.isCompleted
               ? 'Task marked as complete'
               : 'Task marked as incomplete'));
-      // This will refetch all tasks, should be refined to refetch specific date if needed
-      add(const FetchCalendarTodosEvent()); 
+      // This will refetch tasks for the specific date
+      add(FetchCalendarTodosEvent(date: event.date)); 
     } catch (e) {
       log('Error marking calendar todo as complete: $e');
       emit(CalendarTodoError(message: e.toString()));

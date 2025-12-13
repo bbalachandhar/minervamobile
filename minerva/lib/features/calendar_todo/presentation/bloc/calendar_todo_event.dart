@@ -46,9 +46,10 @@ class DeleteCalendarTodoEvent extends CalendarTodoEvent {
 class MarkCalendarTodoAsCompleteEvent extends CalendarTodoEvent {
   final String id;
   final bool isCompleted;
+  final String? date;
 
-  const MarkCalendarTodoAsCompleteEvent({required this.id, required this.isCompleted});
+  const MarkCalendarTodoAsCompleteEvent({required this.id, required this.isCompleted, this.date});
 
   @override
-  List<Object> get props => [id, isCompleted];
+  List<Object> get props => [id, isCompleted, date ?? ''];
 }

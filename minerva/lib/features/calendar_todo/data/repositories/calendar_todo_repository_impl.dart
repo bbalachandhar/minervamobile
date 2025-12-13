@@ -250,10 +250,8 @@ class CalendarTodoRepositoryImpl implements CalendarTodoRepository {
     };
 
     final Map<String, String> requestBody = {
-      'user': loginType,
-      'user_id': userId, // Changed back to user_id for consistency
-      'id': id,
-      'is_completed': isCompleted ? '1' : '0',
+      'task_id': id,
+      'status': isCompleted ? 'yes' : 'no',
     };
 
     log('Mark Task As Complete API URL: $url');
@@ -271,7 +269,7 @@ class CalendarTodoRepositoryImpl implements CalendarTodoRepository {
 
     if (response.statusCode == 200) {
       final body = json.decode(response.body);
-      if (body['status'] != 1) {
+      if (body['status'].toString() != '1') {
         throw Exception(body['msg'] ?? 'Failed to mark task as complete.');
       }
     } else {

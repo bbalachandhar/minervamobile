@@ -52,6 +52,7 @@ class Constants {
   static const String getExamScheduleDetailsUrl = "webservice/getExamSchedule";
   static const String getExamResultUrl = "webservice/getExamResult";
   static const String getSubjectsLessonsUrl = "webservice/getSubjectsLessons";
+  static const String getSyllabusStatusUrl = "webservice/getsyllabussubjects";
   static const String getNotificationsUrl = "webservice/getNotifications";
   static const String getsyllabussubjectsUrl = "webservice/getsyllabussubjects";
   static const String getSubjectListUrl = "webservice/getSubjectList";
@@ -85,7 +86,7 @@ class Constants {
   static const String addCourseRatingandReviewUrl = "webservice/addCourseRatingandReview";
   static const String createTaskUrl = "webservice/addTask";
   static const String deleteTaskUrl = "webservice/deleteTask";
-  static const String markTaskUrl = "webservice/markascomplete";
+  static const String markTaskUrl = "webservice/updateTask";
   static const String getTaskUrl = "webservice/getTask";
   static const String getSubmitedAssignmentDetailsUrl = "webservice/getSubmitedAssignmentDetails";
   static const String getBalanceFeeUrl = "webservice/getBalanceFee";

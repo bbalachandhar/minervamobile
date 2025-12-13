@@ -75,9 +75,11 @@ class AuthenticationRepository {
 
             if (body['status'].toString() == '1') { // Changed '1' to 1 (integer comparison)
 
-          final record = body['record'];
+                    final record = body['record'];
 
-          await sharedPreferences.setString(Constants.loginType, body['role']);
+                    log('AuthenticationRepository: Student login record: $record'); // Added log statement
+
+                    await sharedPreferences.setString(Constants.loginType, body['role']);
 
           await sharedPreferences.setString(Constants.userId, body['id']);
 
@@ -163,29 +165,67 @@ class AuthenticationRepository {
 
           
 
-          // Populate specific fields based on role
+                    // Populate specific fields based on role
 
-          if (body['role'] == 'student') {
+          
 
-            await sharedPreferences.setString(Constants.studentId, record['student_id']);
+                    if (body['role'] == 'student') {
 
-            String classData = record['class'] ?? '';
+          
 
-            String sectionData = record['section'] ?? '';
+                      await sharedPreferences.setString(Constants.studentId, record['student_id']);
 
-            if (classData.isNotEmpty && sectionData.isNotEmpty) {
+          
 
-              await sharedPreferences.setString(Constants.classSection, '$classData ($sectionData)');
+                      // Save class_id and section_id separately
 
-            } else if (classData.isNotEmpty) {
+          
 
-              await sharedPreferences.setString(Constants.classSection, classData);
+                      await sharedPreferences.setString(Constants.classId, record['class_id']?.toString() ?? '');
 
-            } else {
+          
 
-              await sharedPreferences.setString(Constants.classSection, '');
+                      await sharedPreferences.setString(Constants.sectionId, record['section_id']?.toString() ?? '');
 
-            }
+          
+
+          
+
+          
+
+                      String classData = record['class'] ?? '';
+
+          
+
+                      String sectionData = record['section'] ?? '';
+
+          
+
+                      if (classData.isNotEmpty && sectionData.isNotEmpty) {
+
+          
+
+                        await sharedPreferences.setString(Constants.classSection, '$classData ($sectionData)');
+
+          
+
+                      } else if (classData.isNotEmpty) {
+
+          
+
+                        await sharedPreferences.setString(Constants.classSection, classData);
+
+          
+
+                      } else {
+
+          
+
+                        await sharedPreferences.setString(Constants.classSection, '');
+
+          
+
+                      }
 
           } else if (body['role'] == 'parent') {
 

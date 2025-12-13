@@ -253,6 +253,15 @@ class _DashboardPageState extends State<DashboardPage> {
       case 'teachers rating':
         context.push('/teachers_rating');
         break;
+      case 'class timetable': // New case for Class Timetable
+        context.push('/class_timetable');
+        break;
+      case 'syllabus status': // New case for Syllabus Status
+        context.push('/syllabus_status');
+        break;
+      case 'attendance':
+        context.push('/attendance');
+        break;
       default:
         // Do nothing for now
         break;
@@ -294,12 +303,22 @@ class _DashboardPageState extends State<DashboardPage> {
               itemCount: modules.length,
               itemBuilder: (context, index) {
                 final module = modules[index];
+                final isVisitorBook = module.name.toLowerCase() == 'visitor book';
                 return GestureDetector(
                   onTap: () => _onModuleTapped(module),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Image.asset(module.icon, width: 30, height: 30),
+                      if (isVisitorBook)
+                        ColorFiltered(
+                          colorFilter: ColorFilter.mode(
+                            Colors.black, // Changed to black
+                            BlendMode.srcIn, // Blends the color with the image
+                          ),
+                          child: Image.asset(module.icon, width: 30, height: 30),
+                        )
+                      else
+                        Image.asset(module.icon, width: 30, height: 30),
                       const SizedBox(height: 8),
                       Text(
                         module.name,
